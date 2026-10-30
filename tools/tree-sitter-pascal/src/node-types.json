@@ -1,0 +1,8923 @@
+[
+  {
+    "type": "arrInitializer",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "arrInitializer",
+          "named": true
+        },
+        {
+          "type": "exprBinary",
+          "named": false
+        },
+        {
+          "type": "exprBrackets",
+          "named": false
+        },
+        {
+          "type": "exprCall",
+          "named": true
+        },
+        {
+          "type": "exprDot",
+          "named": false
+        },
+        {
+          "type": "exprParens",
+          "named": true
+        },
+        {
+          "type": "exprSubscript",
+          "named": true
+        },
+        {
+          "type": "exprTpl",
+          "named": true
+        },
+        {
+          "type": "exprUnary",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "inherited",
+          "named": true
+        },
+        {
+          "type": "kFalse",
+          "named": true
+        },
+        {
+          "type": "kNil",
+          "named": true
+        },
+        {
+          "type": "kSpecialize",
+          "named": false
+        },
+        {
+          "type": "kTrue",
+          "named": true
+        },
+        {
+          "type": "lambda",
+          "named": true
+        },
+        {
+          "type": "literalNumber",
+          "named": true
+        },
+        {
+          "type": "literalString",
+          "named": true
+        },
+        {
+          "type": "recInitializer",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "asm",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "asmBody",
+          "named": true
+        },
+        {
+          "type": "kAsm",
+          "named": false
+        },
+        {
+          "type": "kEnd",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "asmBody",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "identifier",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "assignment",
+    "named": true,
+    "fields": {
+      "lhs": {
+        "multiple": true,
+        "required": true,
+        "types": [
+          {
+            "type": "exprBinary",
+            "named": false
+          },
+          {
+            "type": "exprBrackets",
+            "named": true
+          },
+          {
+            "type": "exprCall",
+            "named": true
+          },
+          {
+            "type": "exprDot",
+            "named": true
+          },
+          {
+            "type": "exprParens",
+            "named": false
+          },
+          {
+            "type": "exprSubscript",
+            "named": true
+          },
+          {
+            "type": "exprTpl",
+            "named": true
+          },
+          {
+            "type": "exprUnary",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "inherited",
+            "named": false
+          },
+          {
+            "type": "kFalse",
+            "named": true
+          },
+          {
+            "type": "kNil",
+            "named": true
+          },
+          {
+            "type": "kSpecialize",
+            "named": true
+          },
+          {
+            "type": "kTrue",
+            "named": true
+          },
+          {
+            "type": "lambda",
+            "named": true
+          },
+          {
+            "type": "literalNumber",
+            "named": true
+          },
+          {
+            "type": "literalString",
+            "named": true
+          },
+          {
+            "type": "varAssignDef",
+            "named": false
+          }
+        ]
+      },
+      "operator": {
+        "multiple": true,
+        "required": true,
+        "types": [
+          {
+            "type": "kAssign",
+            "named": true
+          },
+          {
+            "type": "kAssignAdd",
+            "named": true
+          },
+          {
+            "type": "kAssignDiv",
+            "named": true
+          },
+          {
+            "type": "kAssignMul",
+            "named": true
+          },
+          {
+            "type": "kAssignSub",
+            "named": true
+          }
+        ]
+      },
+      "rhs": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "exprBinary",
+            "named": true
+          },
+          {
+            "type": "exprBrackets",
+            "named": true
+          },
+          {
+            "type": "exprCall",
+            "named": true
+          },
+          {
+            "type": "exprDot",
+            "named": true
+          },
+          {
+            "type": "exprParens",
+            "named": false
+          },
+          {
+            "type": "exprSubscript",
+            "named": false
+          },
+          {
+            "type": "exprTpl",
+            "named": true
+          },
+          {
+            "type": "exprUnary",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "inherited",
+            "named": true
+          },
+          {
+            "type": "kFalse",
+            "named": true
+          },
+          {
+            "type": "kNil",
+            "named": true
+          },
+          {
+            "type": "kSpecialize",
+            "named": true
+          },
+          {
+            "type": "kTrue",
+            "named": false
+          },
+          {
+            "type": "lambda",
+            "named": true
+          },
+          {
+            "type": "literalNumber",
+            "named": true
+          },
+          {
+            "type": "literalString",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "block",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "asm",
+          "named": true
+        },
+        {
+          "type": "assignment",
+          "named": true
+        },
+        {
+          "type": "block",
+          "named": true
+        },
+        {
+          "type": "case",
+          "named": true
+        },
+        {
+          "type": "for",
+          "named": true
+        },
+        {
+          "type": "foreach",
+          "named": true
+        },
+        {
+          "type": "goto",
+          "named": true
+        },
+        {
+          "type": "if",
+          "named": false
+        },
+        {
+          "type": "ifElse",
+          "named": false
+        },
+        {
+          "type": "kBegin",
+          "named": true
+        },
+        {
+          "type": "kEnd",
+          "named": false
+        },
+        {
+          "type": "label",
+          "named": true
+        },
+        {
+          "type": "raise",
+          "named": false
+        },
+        {
+          "type": "repeat",
+          "named": true
+        },
+        {
+          "type": "statement",
+          "named": true
+        },
+        {
+          "type": "try",
+          "named": false
+        },
+        {
+          "type": "varDef",
+          "named": false
+        },
+        {
+          "type": "while",
+          "named": true
+        },
+        {
+          "type": "with",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "blockTr",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "asm",
+          "named": true
+        },
+        {
+          "type": "assignment",
+          "named": true
+        },
+        {
+          "type": "block",
+          "named": false
+        },
+        {
+          "type": "case",
+          "named": true
+        },
+        {
+          "type": "for",
+          "named": true
+        },
+        {
+          "type": "foreach",
+          "named": true
+        },
+        {
+          "type": "goto",
+          "named": true
+        },
+        {
+          "type": "if",
+          "named": false
+        },
+        {
+          "type": "ifElse",
+          "named": true
+        },
+        {
+          "type": "kBegin",
+          "named": false
+        },
+        {
+          "type": "kEnd",
+          "named": false
+        },
+        {
+          "type": "label",
+          "named": false
+        },
+        {
+          "type": "raise",
+          "named": true
+        },
+        {
+          "type": "repeat",
+          "named": true
+        },
+        {
+          "type": "statement",
+          "named": true
+        },
+        {
+          "type": "try",
+          "named": true
+        },
+        {
+          "type": "varDef",
+          "named": true
+        },
+        {
+          "type": "while",
+          "named": false
+        },
+        {
+          "type": "with",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "case",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "asm",
+          "named": true
+        },
+        {
+          "type": "assignment",
+          "named": true
+        },
+        {
+          "type": "block",
+          "named": true
+        },
+        {
+          "type": "case",
+          "named": true
+        },
+        {
+          "type": "caseCase",
+          "named": false
+        },
+        {
+          "type": "exprBinary",
+          "named": true
+        },
+        {
+          "type": "exprBrackets",
+          "named": true
+        },
+        {
+          "type": "exprCall",
+          "named": false
+        },
+        {
+          "type": "exprDot",
+          "named": true
+        },
+        {
+          "type": "exprParens",
+          "named": true
+        },
+        {
+          "type": "exprSubscript",
+          "named": true
+        },
+        {
+          "type": "exprTpl",
+          "named": true
+        },
+        {
+          "type": "exprUnary",
+          "named": true
+        },
+        {
+          "type": "for",
+          "named": false
+        },
+        {
+          "type": "foreach",
+          "named": true
+        },
+        {
+          "type": "goto",
+          "named": false
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "if",
+          "named": true
+        },
+        {
+          "type": "ifElse",
+          "named": true
+        },
+        {
+          "type": "inherited",
+          "named": true
+        },
+        {
+          "type": "kCase",
+          "named": true
+        },
+        {
+          "type": "kElse",
+          "named": true
+        },
+        {
+          "type": "kEnd",
+          "named": true
+        },
+        {
+          "type": "kFalse",
+          "named": false
+        },
+        {
+          "type": "kNil",
+          "named": true
+        },
+        {
+          "type": "kOf",
+          "named": false
+        },
+        {
+          "type": "kSpecialize",
+          "named": false
+        },
+        {
+          "type": "kTrue",
+          "named": true
+        },
+        {
+          "type": "label",
+          "named": true
+        },
+        {
+          "type": "lambda",
+          "named": true
+        },
+        {
+          "type": "literalNumber",
+          "named": true
+        },
+        {
+          "type": "literalString",
+          "named": true
+        },
+        {
+          "type": "raise",
+          "named": true
+        },
+        {
+          "type": "repeat",
+          "named": false
+        },
+        {
+          "type": "statement",
+          "named": true
+        },
+        {
+          "type": "try",
+          "named": true
+        },
+        {
+          "type": "varDef",
+          "named": true
+        },
+        {
+          "type": "while",
+          "named": false
+        },
+        {
+          "type": "with",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "caseCase",
+    "named": true,
+    "fields": {
+      "body": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": ";",
+            "named": false
+          },
+          {
+            "type": "asm",
+            "named": true
+          },
+          {
+            "type": "assignment",
+            "named": true
+          },
+          {
+            "type": "block",
+            "named": true
+          },
+          {
+            "type": "case",
+            "named": true
+          },
+          {
+            "type": "for",
+            "named": true
+          },
+          {
+            "type": "foreach",
+            "named": true
+          },
+          {
+            "type": "goto",
+            "named": true
+          },
+          {
+            "type": "if",
+            "named": true
+          },
+          {
+            "type": "ifElse",
+            "named": true
+          },
+          {
+            "type": "raise",
+            "named": false
+          },
+          {
+            "type": "repeat",
+            "named": true
+          },
+          {
+            "type": "statement",
+            "named": true
+          },
+          {
+            "type": "try",
+            "named": true
+          },
+          {
+            "type": "varDef",
+            "named": true
+          },
+          {
+            "type": "while",
+            "named": true
+          },
+          {
+            "type": "with",
+            "named": true
+          }
+        ]
+      },
+      "label": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "caseLabel",
+            "named": false
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "caseLabel",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "exprBinary",
+          "named": true
+        },
+        {
+          "type": "exprBrackets",
+          "named": true
+        },
+        {
+          "type": "exprCall",
+          "named": true
+        },
+        {
+          "type": "exprDot",
+          "named": true
+        },
+        {
+          "type": "exprParens",
+          "named": true
+        },
+        {
+          "type": "exprSubscript",
+          "named": false
+        },
+        {
+          "type": "exprTpl",
+          "named": true
+        },
+        {
+          "type": "exprUnary",
+          "named": false
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "inherited",
+          "named": true
+        },
+        {
+          "type": "kFalse",
+          "named": true
+        },
+        {
+          "type": "kNil",
+          "named": true
+        },
+        {
+          "type": "kSpecialize",
+          "named": false
+        },
+        {
+          "type": "kTrue",
+          "named": true
+        },
+        {
+          "type": "lambda",
+          "named": false
+        },
+        {
+          "type": "literalNumber",
+          "named": true
+        },
+        {
+          "type": "literalString",
+          "named": true
+        },
+        {
+          "type": "range",
+          "named": false
+        }
+      ]
+    }
+  },
+  {
+    "type": "declArg",
+    "named": true,
+    "fields": {
+      "defaultValue": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "defaultValue",
+            "named": true
+          }
+        ]
+      },
+      "name": {
+        "multiple": true,
+        "required": true,
+        "types": [
+          {
+            "type": ",",
+            "named": false
+          },
+          {
+            "type": "identifier",
+            "named": false
+          }
+        ]
+      },
+      "type": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "type",
+            "named": true
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": false,
+      "required": false,
+      "types": [
+        {
+          "type": "kConst",
+          "named": true
+        },
+        {
+          "type": "kConstref",
+          "named": true
+        },
+        {
+          "type": "kOut",
+          "named": true
+        },
+        {
+          "type": "kVar",
+          "named": false
+        }
+      ]
+    }
+  },
+  {
+    "type": "declArgs",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "declArg",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "declArray",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "exprBinary",
+          "named": true
+        },
+        {
+          "type": "exprBrackets",
+          "named": false
+        },
+        {
+          "type": "exprCall",
+          "named": true
+        },
+        {
+          "type": "exprDot",
+          "named": true
+        },
+        {
+          "type": "exprParens",
+          "named": true
+        },
+        {
+          "type": "exprSubscript",
+          "named": false
+        },
+        {
+          "type": "exprTpl",
+          "named": false
+        },
+        {
+          "type": "exprUnary",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "inherited",
+          "named": true
+        },
+        {
+          "type": "kArray",
+          "named": false
+        },
+        {
+          "type": "kFalse",
+          "named": true
+        },
+        {
+          "type": "kNil",
+          "named": true
+        },
+        {
+          "type": "kOf",
+          "named": true
+        },
+        {
+          "type": "kPacked",
+          "named": false
+        },
+        {
+          "type": "kSpecialize",
+          "named": false
+        },
+        {
+          "type": "kTrue",
+          "named": true
+        },
+        {
+          "type": "lambda",
+          "named": true
+        },
+        {
+          "type": "literalNumber",
+          "named": true
+        },
+        {
+          "type": "literalString",
+          "named": true
+        },
+        {
+          "type": "range",
+          "named": true
+        },
+        {
+          "type": "type",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "declClass",
+    "named": true,
+    "fields": {
+      "parent": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "(",
+            "named": false
+          },
+          {
+            "type": ")",
+            "named": false
+          },
+          {
+            "type": ",",
+            "named": false
+          },
+          {
+            "type": "typeref",
+            "named": true
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "declConsts",
+          "named": true
+        },
+        {
+          "type": "declField",
+          "named": false
+        },
+        {
+          "type": "declProc",
+          "named": true
+        },
+        {
+          "type": "declProp",
+          "named": true
+        },
+        {
+          "type": "declSection",
+          "named": true
+        },
+        {
+          "type": "declTypes",
+          "named": false
+        },
+        {
+          "type": "declVariant",
+          "named": true
+        },
+        {
+          "type": "declVars",
+          "named": true
+        },
+        {
+          "type": "exprBinary",
+          "named": true
+        },
+        {
+          "type": "exprBrackets",
+          "named": true
+        },
+        {
+          "type": "exprCall",
+          "named": false
+        },
+        {
+          "type": "exprDot",
+          "named": true
+        },
+        {
+          "type": "exprParens",
+          "named": true
+        },
+        {
+          "type": "exprSubscript",
+          "named": true
+        },
+        {
+          "type": "exprTpl",
+          "named": true
+        },
+        {
+          "type": "exprUnary",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "inherited",
+          "named": true
+        },
+        {
+          "type": "kAbstract",
+          "named": true
+        },
+        {
+          "type": "kClass",
+          "named": true
+        },
+        {
+          "type": "kEnd",
+          "named": true
+        },
+        {
+          "type": "kExternal",
+          "named": true
+        },
+        {
+          "type": "kFalse",
+          "named": true
+        },
+        {
+          "type": "kName",
+          "named": true
+        },
+        {
+          "type": "kNil",
+          "named": true
+        },
+        {
+          "type": "kObjccategory",
+          "named": true
+        },
+        {
+          "type": "kObjcclass",
+          "named": true
+        },
+        {
+          "type": "kObjcprotocol",
+          "named": false
+        },
+        {
+          "type": "kObject",
+          "named": true
+        },
+        {
+          "type": "kPacked",
+          "named": true
+        },
+        {
+          "type": "kRecord",
+          "named": true
+        },
+        {
+          "type": "kSealed",
+          "named": true
+        },
+        {
+          "type": "kSpecialize",
+          "named": false
+        },
+        {
+          "type": "kTrue",
+          "named": true
+        },
+        {
+          "type": "lambda",
+          "named": true
+        },
+        {
+          "type": "literalNumber",
+          "named": true
+        },
+        {
+          "type": "literalString",
+          "named": false
+        }
+      ]
+    }
+  },
+  {
+    "type": "declConst",
+    "named": true,
+    "fields": {
+      "attribute": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "procAttribute",
+            "named": true
+          },
+          {
+            "type": "procExternal",
+            "named": false
+          }
+        ]
+      },
+      "defaultValue": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "defaultValue",
+            "named": true
+          }
+        ]
+      },
+      "name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      },
+      "type": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "type",
+            "named": true
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": false,
+      "required": false,
+      "types": [
+        {
+          "type": "rttiAttributes",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "declConsts",
+    "named": false,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "declConst",
+          "named": true
+        },
+        {
+          "type": "kClass",
+          "named": true
+        },
+        {
+          "type": "kConst",
+          "named": false
+        },
+        {
+          "type": "kResourcestring",
+          "named": false
+        }
+      ]
+    }
+  },
+  {
+    "type": "declEnum",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "declEnumValue",
+          "named": false
+        }
+      ]
+    }
+  },
+  {
+    "type": "declEnumValue",
+    "named": true,
+    "fields": {
+      "name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      },
+      "value": {
+        "multiple": true,
+        "required": true,
+        "types": [
+          {
+            "type": "defaultValue",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "declExport",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "exprBinary",
+          "named": true
+        },
+        {
+          "type": "exprBrackets",
+          "named": false
+        },
+        {
+          "type": "exprCall",
+          "named": true
+        },
+        {
+          "type": "exprDot",
+          "named": true
+        },
+        {
+          "type": "exprParens",
+          "named": true
+        },
+        {
+          "type": "exprSubscript",
+          "named": true
+        },
+        {
+          "type": "exprTpl",
+          "named": true
+        },
+        {
+          "type": "exprUnary",
+          "named": true
+        },
+        {
+          "type": "genericDot",
+          "named": true
+        },
+        {
+          "type": "genericTpl",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "inherited",
+          "named": true
+        },
+        {
+          "type": "kFalse",
+          "named": false
+        },
+        {
+          "type": "kIndex",
+          "named": true
+        },
+        {
+          "type": "kName",
+          "named": true
+        },
+        {
+          "type": "kNil",
+          "named": true
+        },
+        {
+          "type": "kSpecialize",
+          "named": true
+        },
+        {
+          "type": "kTrue",
+          "named": true
+        },
+        {
+          "type": "lambda",
+          "named": true
+        },
+        {
+          "type": "literalNumber",
+          "named": true
+        },
+        {
+          "type": "literalString",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "declExports",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "declExport",
+          "named": true
+        },
+        {
+          "type": "kExports",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "declField",
+    "named": true,
+    "fields": {
+      "defaultValue": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "defaultValue",
+            "named": false
+          }
+        ]
+      },
+      "name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": ",",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      },
+      "type": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "type",
+            "named": false
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "rttiAttributes",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "declFile",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "kFile",
+          "named": true
+        },
+        {
+          "type": "kOf",
+          "named": true
+        },
+        {
+          "type": "type",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "declHelper",
+    "named": true,
+    "fields": {
+      "parent": {
+        "multiple": true,
+        "required": true,
+        "types": [
+          {
+            "type": "(",
+            "named": false
+          },
+          {
+            "type": ")",
+            "named": true
+          },
+          {
+            "type": ",",
+            "named": false
+          },
+          {
+            "type": "typeref",
+            "named": true
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "declConsts",
+          "named": false
+        },
+        {
+          "type": "declField",
+          "named": true
+        },
+        {
+          "type": "declProc",
+          "named": true
+        },
+        {
+          "type": "declProp",
+          "named": true
+        },
+        {
+          "type": "declSection",
+          "named": true
+        },
+        {
+          "type": "declTypes",
+          "named": true
+        },
+        {
+          "type": "declVariant",
+          "named": true
+        },
+        {
+          "type": "declVars",
+          "named": true
+        },
+        {
+          "type": "kClass",
+          "named": true
+        },
+        {
+          "type": "kEnd",
+          "named": true
+        },
+        {
+          "type": "kFor",
+          "named": true
+        },
+        {
+          "type": "kHelper",
+          "named": true
+        },
+        {
+          "type": "kRecord",
+          "named": true
+        },
+        {
+          "type": "kType",
+          "named": true
+        },
+        {
+          "type": "typeref",
+          "named": false
+        }
+      ]
+    }
+  },
+  {
+    "type": "declIntf",
+    "named": true,
+    "fields": {
+      "guid": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "guid",
+            "named": true
+          }
+        ]
+      },
+      "parent": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "(",
+            "named": false
+          },
+          {
+            "type": ")",
+            "named": false
+          },
+          {
+            "type": ",",
+            "named": false
+          },
+          {
+            "type": "typeref",
+            "named": true
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "declConsts",
+          "named": true
+        },
+        {
+          "type": "declField",
+          "named": true
+        },
+        {
+          "type": "declProc",
+          "named": true
+        },
+        {
+          "type": "declProp",
+          "named": true
+        },
+        {
+          "type": "declSection",
+          "named": true
+        },
+        {
+          "type": "declTypes",
+          "named": true
+        },
+        {
+          "type": "declVariant",
+          "named": true
+        },
+        {
+          "type": "declVars",
+          "named": true
+        },
+        {
+          "type": "kDispInterface",
+          "named": true
+        },
+        {
+          "type": "kEnd",
+          "named": false
+        },
+        {
+          "type": "kInterface",
+          "named": false
+        },
+        {
+          "type": "kPacked",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "declLabel",
+    "named": true,
+    "fields": {
+      "name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "identifier",
+            "named": false
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "declLabels",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "declLabel",
+          "named": true
+        },
+        {
+          "type": "kLabel",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "declMetaClass",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "kClass",
+          "named": false
+        },
+        {
+          "type": "kOf",
+          "named": true
+        },
+        {
+          "type": "typeref",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "declProc",
+    "named": true,
+    "fields": {
+      "args": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "declArgs",
+            "named": true
+          }
+        ]
+      },
+      "assign": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "defaultValue",
+            "named": true
+          }
+        ]
+      },
+      "attribute": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "procAttribute",
+            "named": true
+          },
+          {
+            "type": "procExternal",
+            "named": true
+          }
+        ]
+      },
+      "name": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "genericDot",
+            "named": true
+          },
+          {
+            "type": "genericTpl",
+            "named": false
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "operatorName",
+            "named": true
+          }
+        ]
+      },
+      "resultName": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      },
+      "type": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "type",
+            "named": false
+          },
+          {
+            "type": "typeref",
+            "named": true
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "kClass",
+          "named": true
+        },
+        {
+          "type": "kConstructor",
+          "named": true
+        },
+        {
+          "type": "kDestructor",
+          "named": false
+        },
+        {
+          "type": "kForward",
+          "named": true
+        },
+        {
+          "type": "kFunction",
+          "named": true
+        },
+        {
+          "type": "kGeneric",
+          "named": true
+        },
+        {
+          "type": "kOperator",
+          "named": true
+        },
+        {
+          "type": "kProcedure",
+          "named": true
+        },
+        {
+          "type": "procExternal",
+          "named": true
+        },
+        {
+          "type": "rttiAttributes",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "declProcRef",
+    "named": true,
+    "fields": {
+      "args": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "declArgs",
+            "named": true
+          }
+        ]
+      },
+      "type": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "typeref",
+            "named": true
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "kFunction",
+          "named": true
+        },
+        {
+          "type": "kObject",
+          "named": true
+        },
+        {
+          "type": "kOf",
+          "named": true
+        },
+        {
+          "type": "kProcedure",
+          "named": true
+        },
+        {
+          "type": "kReference",
+          "named": true
+        },
+        {
+          "type": "kTo",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "declProp",
+    "named": true,
+    "fields": {
+      "args": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "declPropArgs",
+            "named": false
+          }
+        ]
+      },
+      "attribute": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "procAttribute",
+            "named": false
+          },
+          {
+            "type": "procExternal",
+            "named": false
+          }
+        ]
+      },
+      "defaultValue": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "exprBinary",
+            "named": true
+          },
+          {
+            "type": "exprBrackets",
+            "named": true
+          },
+          {
+            "type": "exprCall",
+            "named": true
+          },
+          {
+            "type": "exprDot",
+            "named": true
+          },
+          {
+            "type": "exprParens",
+            "named": true
+          },
+          {
+            "type": "exprSubscript",
+            "named": false
+          },
+          {
+            "type": "exprTpl",
+            "named": false
+          },
+          {
+            "type": "exprUnary",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "inherited",
+            "named": true
+          },
+          {
+            "type": "kFalse",
+            "named": true
+          },
+          {
+            "type": "kNil",
+            "named": true
+          },
+          {
+            "type": "kSpecialize",
+            "named": true
+          },
+          {
+            "type": "kTrue",
+            "named": true
+          },
+          {
+            "type": "lambda",
+            "named": true
+          },
+          {
+            "type": "literalNumber",
+            "named": true
+          },
+          {
+            "type": "literalString",
+            "named": true
+          }
+        ]
+      },
+      "dispid": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "exprBinary",
+            "named": true
+          },
+          {
+            "type": "exprBrackets",
+            "named": false
+          },
+          {
+            "type": "exprCall",
+            "named": true
+          },
+          {
+            "type": "exprDot",
+            "named": true
+          },
+          {
+            "type": "exprParens",
+            "named": true
+          },
+          {
+            "type": "exprSubscript",
+            "named": true
+          },
+          {
+            "type": "exprTpl",
+            "named": false
+          },
+          {
+            "type": "exprUnary",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": false
+          },
+          {
+            "type": "inherited",
+            "named": true
+          },
+          {
+            "type": "kFalse",
+            "named": false
+          },
+          {
+            "type": "kNil",
+            "named": true
+          },
+          {
+            "type": "kSpecialize",
+            "named": true
+          },
+          {
+            "type": "kTrue",
+            "named": true
+          },
+          {
+            "type": "lambda",
+            "named": true
+          },
+          {
+            "type": "literalNumber",
+            "named": true
+          },
+          {
+            "type": "literalString",
+            "named": true
+          }
+        ]
+      },
+      "getter": {
+        "multiple": true,
+        "required": true,
+        "types": [
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      },
+      "implements": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": ",",
+            "named": false
+          },
+          {
+            "type": "exprBinary",
+            "named": true
+          },
+          {
+            "type": "exprBrackets",
+            "named": true
+          },
+          {
+            "type": "exprCall",
+            "named": true
+          },
+          {
+            "type": "exprDot",
+            "named": true
+          },
+          {
+            "type": "exprParens",
+            "named": true
+          },
+          {
+            "type": "exprSubscript",
+            "named": true
+          },
+          {
+            "type": "exprTpl",
+            "named": true
+          },
+          {
+            "type": "exprUnary",
+            "named": false
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "inherited",
+            "named": true
+          },
+          {
+            "type": "kFalse",
+            "named": false
+          },
+          {
+            "type": "kNil",
+            "named": false
+          },
+          {
+            "type": "kSpecialize",
+            "named": true
+          },
+          {
+            "type": "kTrue",
+            "named": true
+          },
+          {
+            "type": "lambda",
+            "named": true
+          },
+          {
+            "type": "literalNumber",
+            "named": false
+          },
+          {
+            "type": "literalString",
+            "named": false
+          }
+        ]
+      },
+      "index": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "exprBinary",
+            "named": true
+          },
+          {
+            "type": "exprBrackets",
+            "named": false
+          },
+          {
+            "type": "exprCall",
+            "named": true
+          },
+          {
+            "type": "exprDot",
+            "named": true
+          },
+          {
+            "type": "exprParens",
+            "named": false
+          },
+          {
+            "type": "exprSubscript",
+            "named": false
+          },
+          {
+            "type": "exprTpl",
+            "named": true
+          },
+          {
+            "type": "exprUnary",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "inherited",
+            "named": true
+          },
+          {
+            "type": "kFalse",
+            "named": true
+          },
+          {
+            "type": "kNil",
+            "named": true
+          },
+          {
+            "type": "kSpecialize",
+            "named": true
+          },
+          {
+            "type": "kTrue",
+            "named": true
+          },
+          {
+            "type": "lambda",
+            "named": true
+          },
+          {
+            "type": "literalNumber",
+            "named": true
+          },
+          {
+            "type": "literalString",
+            "named": true
+          }
+        ]
+      },
+      "name": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "identifier",
+            "named": false
+          }
+        ]
+      },
+      "setter": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      },
+      "stored": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "exprBinary",
+            "named": true
+          },
+          {
+            "type": "exprBrackets",
+            "named": true
+          },
+          {
+            "type": "exprCall",
+            "named": true
+          },
+          {
+            "type": "exprDot",
+            "named": true
+          },
+          {
+            "type": "exprParens",
+            "named": true
+          },
+          {
+            "type": "exprSubscript",
+            "named": true
+          },
+          {
+            "type": "exprTpl",
+            "named": true
+          },
+          {
+            "type": "exprUnary",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "inherited",
+            "named": false
+          },
+          {
+            "type": "kFalse",
+            "named": true
+          },
+          {
+            "type": "kNil",
+            "named": true
+          },
+          {
+            "type": "kSpecialize",
+            "named": true
+          },
+          {
+            "type": "kTrue",
+            "named": true
+          },
+          {
+            "type": "lambda",
+            "named": true
+          },
+          {
+            "type": "literalNumber",
+            "named": true
+          },
+          {
+            "type": "literalString",
+            "named": true
+          }
+        ]
+      },
+      "type": {
+        "multiple": true,
+        "required": true,
+        "types": [
+          {
+            "type": "type",
+            "named": true
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "kClass",
+          "named": true
+        },
+        {
+          "type": "kDefault",
+          "named": true
+        },
+        {
+          "type": "kDispId",
+          "named": true
+        },
+        {
+          "type": "kImplements",
+          "named": true
+        },
+        {
+          "type": "kIndex",
+          "named": true
+        },
+        {
+          "type": "kNodefault",
+          "named": true
+        },
+        {
+          "type": "kProperty",
+          "named": true
+        },
+        {
+          "type": "kRead",
+          "named": true
+        },
+        {
+          "type": "kStored",
+          "named": true
+        },
+        {
+          "type": "kWrite",
+          "named": true
+        },
+        {
+          "type": "rttiAttributes",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "declPropArgs",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "declArg",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "declSection",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "declConsts",
+          "named": true
+        },
+        {
+          "type": "declField",
+          "named": true
+        },
+        {
+          "type": "declProc",
+          "named": true
+        },
+        {
+          "type": "declProp",
+          "named": true
+        },
+        {
+          "type": "declTypes",
+          "named": true
+        },
+        {
+          "type": "declVars",
+          "named": true
+        },
+        {
+          "type": "kOptional",
+          "named": true
+        },
+        {
+          "type": "kPrivate",
+          "named": true
+        },
+        {
+          "type": "kProtected",
+          "named": true
+        },
+        {
+          "type": "kPublic",
+          "named": true
+        },
+        {
+          "type": "kPublished",
+          "named": true
+        },
+        {
+          "type": "kRequired",
+          "named": false
+        },
+        {
+          "type": "kStrict",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "declSet",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "kOf",
+          "named": true
+        },
+        {
+          "type": "kSet",
+          "named": true
+        },
+        {
+          "type": "type",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "declString",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "exprBinary",
+          "named": false
+        },
+        {
+          "type": "exprBrackets",
+          "named": false
+        },
+        {
+          "type": "exprCall",
+          "named": true
+        },
+        {
+          "type": "exprDot",
+          "named": true
+        },
+        {
+          "type": "exprParens",
+          "named": true
+        },
+        {
+          "type": "exprSubscript",
+          "named": true
+        },
+        {
+          "type": "exprTpl",
+          "named": false
+        },
+        {
+          "type": "exprUnary",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "inherited",
+          "named": true
+        },
+        {
+          "type": "kFalse",
+          "named": true
+        },
+        {
+          "type": "kNil",
+          "named": true
+        },
+        {
+          "type": "kSpecialize",
+          "named": true
+        },
+        {
+          "type": "kString",
+          "named": true
+        },
+        {
+          "type": "kTrue",
+          "named": true
+        },
+        {
+          "type": "lambda",
+          "named": true
+        },
+        {
+          "type": "literalNumber",
+          "named": true
+        },
+        {
+          "type": "literalString",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "declType",
+    "named": true,
+    "fields": {
+      "attribute": {
+        "multiple": true,
+        "required": true,
+        "types": [
+          {
+            "type": "procAttribute",
+            "named": true
+          },
+          {
+            "type": "procExternal",
+            "named": true
+          }
+        ]
+      },
+      "name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "genericDot",
+            "named": true
+          },
+          {
+            "type": "genericTpl",
+            "named": false
+          },
+          {
+            "type": "identifier",
+            "named": false
+          }
+        ]
+      },
+      "type": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "declClass",
+            "named": true
+          },
+          {
+            "type": "declHelper",
+            "named": true
+          },
+          {
+            "type": "declIntf",
+            "named": true
+          },
+          {
+            "type": "kType",
+            "named": false
+          },
+          {
+            "type": "type",
+            "named": true
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "kEq",
+          "named": true
+        },
+        {
+          "type": "kGeneric",
+          "named": true
+        },
+        {
+          "type": "rttiAttributes",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "declTypes",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "declType",
+          "named": true
+        },
+        {
+          "type": "kType",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "declUses",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "kUses",
+          "named": true
+        },
+        {
+          "type": "moduleName",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "declVar",
+    "named": true,
+    "fields": {
+      "attribute": {
+        "multiple": true,
+        "required": true,
+        "types": [
+          {
+            "type": "procAttribute",
+            "named": true
+          },
+          {
+            "type": "procExternal",
+            "named": true
+          }
+        ]
+      },
+      "defaultValue": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "defaultValue",
+            "named": true
+          }
+        ]
+      },
+      "name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": ",",
+            "named": false
+          },
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      },
+      "type": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "type",
+            "named": true
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "exprBinary",
+          "named": true
+        },
+        {
+          "type": "exprBrackets",
+          "named": true
+        },
+        {
+          "type": "exprCall",
+          "named": true
+        },
+        {
+          "type": "exprDot",
+          "named": true
+        },
+        {
+          "type": "exprParens",
+          "named": false
+        },
+        {
+          "type": "exprSubscript",
+          "named": true
+        },
+        {
+          "type": "exprTpl",
+          "named": true
+        },
+        {
+          "type": "exprUnary",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "inherited",
+          "named": false
+        },
+        {
+          "type": "kAbsolute",
+          "named": true
+        },
+        {
+          "type": "kFalse",
+          "named": true
+        },
+        {
+          "type": "kNil",
+          "named": true
+        },
+        {
+          "type": "kSpecialize",
+          "named": true
+        },
+        {
+          "type": "kTrue",
+          "named": true
+        },
+        {
+          "type": "lambda",
+          "named": true
+        },
+        {
+          "type": "literalNumber",
+          "named": false
+        },
+        {
+          "type": "literalString",
+          "named": false
+        },
+        {
+          "type": "procExternal",
+          "named": true
+        },
+        {
+          "type": "rttiAttributes",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "declVariant",
+    "named": true,
+    "fields": {
+      "name": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": ":",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      },
+      "type": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "typeref",
+            "named": false
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "declVariantClause",
+          "named": true
+        },
+        {
+          "type": "kCase",
+          "named": true
+        },
+        {
+          "type": "kOf",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "declVariantClause",
+    "named": false,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "caseLabel",
+          "named": false
+        },
+        {
+          "type": "declField",
+          "named": true
+        },
+        {
+          "type": "declVariant",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "declVars",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "declVar",
+          "named": true
+        },
+        {
+          "type": "kClass",
+          "named": true
+        },
+        {
+          "type": "kThreadvar",
+          "named": true
+        },
+        {
+          "type": "kVar",
+          "named": false
+        }
+      ]
+    }
+  },
+  {
+    "type": "defProc",
+    "named": true,
+    "fields": {
+      "body": {
+        "multiple": true,
+        "required": true,
+        "types": [
+          {
+            "type": "asm",
+            "named": true
+          },
+          {
+            "type": "block",
+            "named": true
+          }
+        ]
+      },
+      "header": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "declProc",
+            "named": true
+          }
+        ]
+      },
+      "local": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "blockTr",
+            "named": true
+          },
+          {
+            "type": "declConsts",
+            "named": true
+          },
+          {
+            "type": "declExports",
+            "named": true
+          },
+          {
+            "type": "declLabels",
+            "named": true
+          },
+          {
+            "type": "declProc",
+            "named": false
+          },
+          {
+            "type": "declTypes",
+            "named": true
+          },
+          {
+            "type": "declUses",
+            "named": false
+          },
+          {
+            "type": "declVars",
+            "named": true
+          },
+          {
+            "type": "defProc",
+            "named": true
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "pp",
+          "named": false
+        }
+      ]
+    }
+  },
+  {
+    "type": "defaultValue",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "arrInitializer",
+          "named": true
+        },
+        {
+          "type": "exprBinary",
+          "named": true
+        },
+        {
+          "type": "exprBrackets",
+          "named": true
+        },
+        {
+          "type": "exprCall",
+          "named": true
+        },
+        {
+          "type": "exprDot",
+          "named": true
+        },
+        {
+          "type": "exprParens",
+          "named": false
+        },
+        {
+          "type": "exprSubscript",
+          "named": false
+        },
+        {
+          "type": "exprTpl",
+          "named": true
+        },
+        {
+          "type": "exprUnary",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": false
+        },
+        {
+          "type": "inherited",
+          "named": true
+        },
+        {
+          "type": "kEq",
+          "named": true
+        },
+        {
+          "type": "kFalse",
+          "named": false
+        },
+        {
+          "type": "kNil",
+          "named": true
+        },
+        {
+          "type": "kSpecialize",
+          "named": true
+        },
+        {
+          "type": "kTrue",
+          "named": true
+        },
+        {
+          "type": "lambda",
+          "named": false
+        },
+        {
+          "type": "literalNumber",
+          "named": true
+        },
+        {
+          "type": "literalString",
+          "named": true
+        },
+        {
+          "type": "recInitializer",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "exceptionElse",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "asm",
+          "named": true
+        },
+        {
+          "type": "assignment",
+          "named": true
+        },
+        {
+          "type": "block",
+          "named": false
+        },
+        {
+          "type": "case",
+          "named": true
+        },
+        {
+          "type": "for",
+          "named": false
+        },
+        {
+          "type": "foreach",
+          "named": true
+        },
+        {
+          "type": "goto",
+          "named": true
+        },
+        {
+          "type": "if",
+          "named": true
+        },
+        {
+          "type": "ifElse",
+          "named": true
+        },
+        {
+          "type": "kElse",
+          "named": true
+        },
+        {
+          "type": "raise",
+          "named": true
+        },
+        {
+          "type": "repeat",
+          "named": true
+        },
+        {
+          "type": "statement",
+          "named": true
+        },
+        {
+          "type": "try",
+          "named": false
+        },
+        {
+          "type": "varDef",
+          "named": false
+        },
+        {
+          "type": "while",
+          "named": true
+        },
+        {
+          "type": "with",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "exceptionHandler",
+    "named": true,
+    "fields": {
+      "body": {
+        "multiple": true,
+        "required": true,
+        "types": [
+          {
+            "type": ";",
+            "named": false
+          },
+          {
+            "type": "asm",
+            "named": false
+          },
+          {
+            "type": "assignment",
+            "named": true
+          },
+          {
+            "type": "block",
+            "named": false
+          },
+          {
+            "type": "case",
+            "named": true
+          },
+          {
+            "type": "for",
+            "named": true
+          },
+          {
+            "type": "foreach",
+            "named": true
+          },
+          {
+            "type": "goto",
+            "named": true
+          },
+          {
+            "type": "if",
+            "named": true
+          },
+          {
+            "type": "ifElse",
+            "named": false
+          },
+          {
+            "type": "raise",
+            "named": true
+          },
+          {
+            "type": "repeat",
+            "named": true
+          },
+          {
+            "type": "statement",
+            "named": true
+          },
+          {
+            "type": "try",
+            "named": true
+          },
+          {
+            "type": "varDef",
+            "named": false
+          },
+          {
+            "type": "while",
+            "named": true
+          },
+          {
+            "type": "with",
+            "named": true
+          }
+        ]
+      },
+      "exception": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "typeref",
+            "named": true
+          }
+        ]
+      },
+      "variable": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": ":",
+            "named": false
+          },
+          {
+            "type": "identifier",
+            "named": false
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "kDo",
+          "named": true
+        },
+        {
+          "type": "kOn",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "exprArgs",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "exprBinary",
+          "named": true
+        },
+        {
+          "type": "exprBrackets",
+          "named": true
+        },
+        {
+          "type": "exprCall",
+          "named": true
+        },
+        {
+          "type": "exprDot",
+          "named": true
+        },
+        {
+          "type": "exprParens",
+          "named": true
+        },
+        {
+          "type": "exprSubscript",
+          "named": true
+        },
+        {
+          "type": "exprTpl",
+          "named": true
+        },
+        {
+          "type": "exprUnary",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": false
+        },
+        {
+          "type": "inherited",
+          "named": true
+        },
+        {
+          "type": "kFalse",
+          "named": true
+        },
+        {
+          "type": "kNil",
+          "named": true
+        },
+        {
+          "type": "kSpecialize",
+          "named": true
+        },
+        {
+          "type": "kTrue",
+          "named": true
+        },
+        {
+          "type": "lambda",
+          "named": true
+        },
+        {
+          "type": "legacyFormat",
+          "named": true
+        },
+        {
+          "type": "literalNumber",
+          "named": false
+        },
+        {
+          "type": "literalString",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "exprBinary",
+    "named": true,
+    "fields": {
+      "lhs": {
+        "multiple": true,
+        "required": true,
+        "types": [
+          {
+            "type": "exprBinary",
+            "named": true
+          },
+          {
+            "type": "exprBrackets",
+            "named": false
+          },
+          {
+            "type": "exprCall",
+            "named": true
+          },
+          {
+            "type": "exprDot",
+            "named": true
+          },
+          {
+            "type": "exprParens",
+            "named": true
+          },
+          {
+            "type": "exprSubscript",
+            "named": true
+          },
+          {
+            "type": "exprTpl",
+            "named": true
+          },
+          {
+            "type": "exprUnary",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "inherited",
+            "named": true
+          },
+          {
+            "type": "kFalse",
+            "named": false
+          },
+          {
+            "type": "kNil",
+            "named": true
+          },
+          {
+            "type": "kSpecialize",
+            "named": true
+          },
+          {
+            "type": "kTrue",
+            "named": true
+          },
+          {
+            "type": "lambda",
+            "named": true
+          },
+          {
+            "type": "literalNumber",
+            "named": true
+          },
+          {
+            "type": "literalString",
+            "named": false
+          }
+        ]
+      },
+      "operator": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "kAdd",
+            "named": false
+          },
+          {
+            "type": "kAnd",
+            "named": true
+          },
+          {
+            "type": "kAs",
+            "named": true
+          },
+          {
+            "type": "kDiv",
+            "named": false
+          },
+          {
+            "type": "kEq",
+            "named": true
+          },
+          {
+            "type": "kFdiv",
+            "named": true
+          },
+          {
+            "type": "kGt",
+            "named": true
+          },
+          {
+            "type": "kGte",
+            "named": true
+          },
+          {
+            "type": "kIn",
+            "named": true
+          },
+          {
+            "type": "kIs",
+            "named": false
+          },
+          {
+            "type": "kLt",
+            "named": false
+          },
+          {
+            "type": "kLte",
+            "named": true
+          },
+          {
+            "type": "kMod",
+            "named": true
+          },
+          {
+            "type": "kMul",
+            "named": true
+          },
+          {
+            "type": "kNeq",
+            "named": true
+          },
+          {
+            "type": "kOr",
+            "named": true
+          },
+          {
+            "type": "kShl",
+            "named": true
+          },
+          {
+            "type": "kShr",
+            "named": false
+          },
+          {
+            "type": "kSub",
+            "named": true
+          },
+          {
+            "type": "kXor",
+            "named": true
+          }
+        ]
+      },
+      "rhs": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "exprBinary",
+            "named": true
+          },
+          {
+            "type": "exprBrackets",
+            "named": true
+          },
+          {
+            "type": "exprCall",
+            "named": true
+          },
+          {
+            "type": "exprDot",
+            "named": true
+          },
+          {
+            "type": "exprParens",
+            "named": true
+          },
+          {
+            "type": "exprSubscript",
+            "named": true
+          },
+          {
+            "type": "exprTpl",
+            "named": true
+          },
+          {
+            "type": "exprUnary",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "inherited",
+            "named": true
+          },
+          {
+            "type": "kFalse",
+            "named": false
+          },
+          {
+            "type": "kNil",
+            "named": false
+          },
+          {
+            "type": "kSpecialize",
+            "named": true
+          },
+          {
+            "type": "kTrue",
+            "named": true
+          },
+          {
+            "type": "lambda",
+            "named": false
+          },
+          {
+            "type": "literalNumber",
+            "named": true
+          },
+          {
+            "type": "literalString",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "exprBrackets",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "exprBinary",
+          "named": true
+        },
+        {
+          "type": "exprBrackets",
+          "named": true
+        },
+        {
+          "type": "exprCall",
+          "named": false
+        },
+        {
+          "type": "exprDot",
+          "named": false
+        },
+        {
+          "type": "exprParens",
+          "named": true
+        },
+        {
+          "type": "exprSubscript",
+          "named": true
+        },
+        {
+          "type": "exprTpl",
+          "named": true
+        },
+        {
+          "type": "exprUnary",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "inherited",
+          "named": true
+        },
+        {
+          "type": "kFalse",
+          "named": true
+        },
+        {
+          "type": "kNil",
+          "named": false
+        },
+        {
+          "type": "kSpecialize",
+          "named": true
+        },
+        {
+          "type": "kTrue",
+          "named": true
+        },
+        {
+          "type": "lambda",
+          "named": true
+        },
+        {
+          "type": "literalNumber",
+          "named": false
+        },
+        {
+          "type": "literalString",
+          "named": true
+        },
+        {
+          "type": "range",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "exprCall",
+    "named": true,
+    "fields": {
+      "args": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "exprArgs",
+            "named": false
+          }
+        ]
+      },
+      "entity": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "exprBinary",
+            "named": true
+          },
+          {
+            "type": "exprBrackets",
+            "named": false
+          },
+          {
+            "type": "exprCall",
+            "named": false
+          },
+          {
+            "type": "exprDot",
+            "named": false
+          },
+          {
+            "type": "exprParens",
+            "named": true
+          },
+          {
+            "type": "exprSubscript",
+            "named": true
+          },
+          {
+            "type": "exprTpl",
+            "named": true
+          },
+          {
+            "type": "exprUnary",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "inherited",
+            "named": false
+          },
+          {
+            "type": "kFalse",
+            "named": true
+          },
+          {
+            "type": "kNil",
+            "named": true
+          },
+          {
+            "type": "kSpecialize",
+            "named": true
+          },
+          {
+            "type": "kTrue",
+            "named": true
+          },
+          {
+            "type": "lambda",
+            "named": true
+          },
+          {
+            "type": "literalNumber",
+            "named": false
+          },
+          {
+            "type": "literalString",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "exprDot",
+    "named": true,
+    "fields": {
+      "lhs": {
+        "multiple": true,
+        "required": true,
+        "types": [
+          {
+            "type": "exprBinary",
+            "named": true
+          },
+          {
+            "type": "exprBrackets",
+            "named": true
+          },
+          {
+            "type": "exprCall",
+            "named": true
+          },
+          {
+            "type": "exprDot",
+            "named": true
+          },
+          {
+            "type": "exprParens",
+            "named": false
+          },
+          {
+            "type": "exprSubscript",
+            "named": true
+          },
+          {
+            "type": "exprTpl",
+            "named": false
+          },
+          {
+            "type": "exprUnary",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "inherited",
+            "named": true
+          },
+          {
+            "type": "kFalse",
+            "named": true
+          },
+          {
+            "type": "kNil",
+            "named": true
+          },
+          {
+            "type": "kSpecialize",
+            "named": true
+          },
+          {
+            "type": "kTrue",
+            "named": true
+          },
+          {
+            "type": "lambda",
+            "named": false
+          },
+          {
+            "type": "literalNumber",
+            "named": true
+          },
+          {
+            "type": "literalString",
+            "named": true
+          }
+        ]
+      },
+      "operator": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "kDot",
+            "named": true
+          }
+        ]
+      },
+      "rhs": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "exprBinary",
+            "named": true
+          },
+          {
+            "type": "exprBrackets",
+            "named": true
+          },
+          {
+            "type": "exprCall",
+            "named": true
+          },
+          {
+            "type": "exprDot",
+            "named": true
+          },
+          {
+            "type": "exprParens",
+            "named": true
+          },
+          {
+            "type": "exprSubscript",
+            "named": true
+          },
+          {
+            "type": "exprTpl",
+            "named": true
+          },
+          {
+            "type": "exprUnary",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "inherited",
+            "named": false
+          },
+          {
+            "type": "kFalse",
+            "named": false
+          },
+          {
+            "type": "kNil",
+            "named": false
+          },
+          {
+            "type": "kSpecialize",
+            "named": true
+          },
+          {
+            "type": "kTrue",
+            "named": true
+          },
+          {
+            "type": "lambda",
+            "named": true
+          },
+          {
+            "type": "literalNumber",
+            "named": true
+          },
+          {
+            "type": "literalString",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "exprParens",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "exprBinary",
+          "named": true
+        },
+        {
+          "type": "exprBrackets",
+          "named": true
+        },
+        {
+          "type": "exprCall",
+          "named": false
+        },
+        {
+          "type": "exprDot",
+          "named": true
+        },
+        {
+          "type": "exprParens",
+          "named": true
+        },
+        {
+          "type": "exprSubscript",
+          "named": false
+        },
+        {
+          "type": "exprTpl",
+          "named": false
+        },
+        {
+          "type": "exprUnary",
+          "named": false
+        },
+        {
+          "type": "identifier",
+          "named": false
+        },
+        {
+          "type": "inherited",
+          "named": true
+        },
+        {
+          "type": "kFalse",
+          "named": false
+        },
+        {
+          "type": "kNil",
+          "named": true
+        },
+        {
+          "type": "kSpecialize",
+          "named": true
+        },
+        {
+          "type": "kTrue",
+          "named": true
+        },
+        {
+          "type": "lambda",
+          "named": true
+        },
+        {
+          "type": "literalNumber",
+          "named": true
+        },
+        {
+          "type": "literalString",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "exprSubscript",
+    "named": false,
+    "fields": {
+      "args": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "exprArgs",
+            "named": true
+          }
+        ]
+      },
+      "entity": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "exprBinary",
+            "named": true
+          },
+          {
+            "type": "exprBrackets",
+            "named": false
+          },
+          {
+            "type": "exprCall",
+            "named": true
+          },
+          {
+            "type": "exprDot",
+            "named": true
+          },
+          {
+            "type": "exprParens",
+            "named": true
+          },
+          {
+            "type": "exprSubscript",
+            "named": true
+          },
+          {
+            "type": "exprTpl",
+            "named": true
+          },
+          {
+            "type": "exprUnary",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "inherited",
+            "named": true
+          },
+          {
+            "type": "kFalse",
+            "named": true
+          },
+          {
+            "type": "kNil",
+            "named": true
+          },
+          {
+            "type": "kSpecialize",
+            "named": true
+          },
+          {
+            "type": "kTrue",
+            "named": true
+          },
+          {
+            "type": "lambda",
+            "named": true
+          },
+          {
+            "type": "literalNumber",
+            "named": true
+          },
+          {
+            "type": "literalString",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "exprTpl",
+    "named": true,
+    "fields": {
+      "args": {
+        "multiple": true,
+        "required": true,
+        "types": [
+          {
+            "type": ",",
+            "named": false
+          },
+          {
+            "type": "exprBinary",
+            "named": false
+          },
+          {
+            "type": "exprBrackets",
+            "named": true
+          },
+          {
+            "type": "exprCall",
+            "named": true
+          },
+          {
+            "type": "exprDot",
+            "named": false
+          },
+          {
+            "type": "exprParens",
+            "named": true
+          },
+          {
+            "type": "exprSubscript",
+            "named": true
+          },
+          {
+            "type": "exprTpl",
+            "named": false
+          },
+          {
+            "type": "exprUnary",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": false
+          },
+          {
+            "type": "inherited",
+            "named": true
+          },
+          {
+            "type": "kFalse",
+            "named": false
+          },
+          {
+            "type": "kNil",
+            "named": true
+          },
+          {
+            "type": "kSpecialize",
+            "named": true
+          },
+          {
+            "type": "kTrue",
+            "named": true
+          },
+          {
+            "type": "lambda",
+            "named": true
+          },
+          {
+            "type": "literalNumber",
+            "named": true
+          },
+          {
+            "type": "literalString",
+            "named": false
+          }
+        ]
+      },
+      "entity": {
+        "multiple": true,
+        "required": true,
+        "types": [
+          {
+            "type": "exprBinary",
+            "named": true
+          },
+          {
+            "type": "exprBrackets",
+            "named": true
+          },
+          {
+            "type": "exprCall",
+            "named": true
+          },
+          {
+            "type": "exprDot",
+            "named": true
+          },
+          {
+            "type": "exprParens",
+            "named": true
+          },
+          {
+            "type": "exprSubscript",
+            "named": false
+          },
+          {
+            "type": "exprTpl",
+            "named": true
+          },
+          {
+            "type": "exprUnary",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "inherited",
+            "named": true
+          },
+          {
+            "type": "kFalse",
+            "named": true
+          },
+          {
+            "type": "kNil",
+            "named": true
+          },
+          {
+            "type": "kSpecialize",
+            "named": true
+          },
+          {
+            "type": "kTrue",
+            "named": false
+          },
+          {
+            "type": "lambda",
+            "named": true
+          },
+          {
+            "type": "literalNumber",
+            "named": false
+          },
+          {
+            "type": "literalString",
+            "named": true
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "kGt",
+          "named": true
+        },
+        {
+          "type": "kLt",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "exprUnary",
+    "named": true,
+    "fields": {
+      "operand": {
+        "multiple": true,
+        "required": true,
+        "types": [
+          {
+            "type": "exprBinary",
+            "named": true
+          },
+          {
+            "type": "exprBrackets",
+            "named": true
+          },
+          {
+            "type": "exprCall",
+            "named": true
+          },
+          {
+            "type": "exprDot",
+            "named": true
+          },
+          {
+            "type": "exprParens",
+            "named": true
+          },
+          {
+            "type": "exprSubscript",
+            "named": true
+          },
+          {
+            "type": "exprTpl",
+            "named": false
+          },
+          {
+            "type": "exprUnary",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "inherited",
+            "named": true
+          },
+          {
+            "type": "kFalse",
+            "named": true
+          },
+          {
+            "type": "kNil",
+            "named": true
+          },
+          {
+            "type": "kSpecialize",
+            "named": false
+          },
+          {
+            "type": "kTrue",
+            "named": false
+          },
+          {
+            "type": "lambda",
+            "named": true
+          },
+          {
+            "type": "literalNumber",
+            "named": true
+          },
+          {
+            "type": "literalString",
+            "named": true
+          }
+        ]
+      },
+      "operator": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "kAdd",
+            "named": true
+          },
+          {
+            "type": "kAt",
+            "named": true
+          },
+          {
+            "type": "kHat",
+            "named": true
+          },
+          {
+            "type": "kNot",
+            "named": true
+          },
+          {
+            "type": "kSub",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "finalization",
+    "named": false,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "asm",
+          "named": true
+        },
+        {
+          "type": "assignment",
+          "named": true
+        },
+        {
+          "type": "block",
+          "named": false
+        },
+        {
+          "type": "case",
+          "named": true
+        },
+        {
+          "type": "for",
+          "named": true
+        },
+        {
+          "type": "foreach",
+          "named": false
+        },
+        {
+          "type": "goto",
+          "named": false
+        },
+        {
+          "type": "if",
+          "named": false
+        },
+        {
+          "type": "ifElse",
+          "named": true
+        },
+        {
+          "type": "kFinalization",
+          "named": true
+        },
+        {
+          "type": "label",
+          "named": true
+        },
+        {
+          "type": "raise",
+          "named": true
+        },
+        {
+          "type": "repeat",
+          "named": true
+        },
+        {
+          "type": "statement",
+          "named": true
+        },
+        {
+          "type": "try",
+          "named": true
+        },
+        {
+          "type": "varDef",
+          "named": true
+        },
+        {
+          "type": "while",
+          "named": true
+        },
+        {
+          "type": "with",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "for",
+    "named": true,
+    "fields": {
+      "body": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": ";",
+            "named": false
+          },
+          {
+            "type": "asm",
+            "named": true
+          },
+          {
+            "type": "assignment",
+            "named": true
+          },
+          {
+            "type": "block",
+            "named": true
+          },
+          {
+            "type": "case",
+            "named": true
+          },
+          {
+            "type": "for",
+            "named": false
+          },
+          {
+            "type": "foreach",
+            "named": true
+          },
+          {
+            "type": "goto",
+            "named": false
+          },
+          {
+            "type": "if",
+            "named": false
+          },
+          {
+            "type": "ifElse",
+            "named": false
+          },
+          {
+            "type": "raise",
+            "named": true
+          },
+          {
+            "type": "repeat",
+            "named": true
+          },
+          {
+            "type": "statement",
+            "named": true
+          },
+          {
+            "type": "try",
+            "named": true
+          },
+          {
+            "type": "varDef",
+            "named": true
+          },
+          {
+            "type": "while",
+            "named": true
+          },
+          {
+            "type": "with",
+            "named": true
+          }
+        ]
+      },
+      "end": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "exprBinary",
+            "named": false
+          },
+          {
+            "type": "exprBrackets",
+            "named": true
+          },
+          {
+            "type": "exprCall",
+            "named": false
+          },
+          {
+            "type": "exprDot",
+            "named": true
+          },
+          {
+            "type": "exprParens",
+            "named": true
+          },
+          {
+            "type": "exprSubscript",
+            "named": true
+          },
+          {
+            "type": "exprTpl",
+            "named": true
+          },
+          {
+            "type": "exprUnary",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "inherited",
+            "named": true
+          },
+          {
+            "type": "kFalse",
+            "named": true
+          },
+          {
+            "type": "kNil",
+            "named": false
+          },
+          {
+            "type": "kSpecialize",
+            "named": true
+          },
+          {
+            "type": "kTrue",
+            "named": true
+          },
+          {
+            "type": "lambda",
+            "named": true
+          },
+          {
+            "type": "literalNumber",
+            "named": true
+          },
+          {
+            "type": "literalString",
+            "named": true
+          }
+        ]
+      },
+      "start": {
+        "multiple": true,
+        "required": true,
+        "types": [
+          {
+            "type": "assignment",
+            "named": false
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "kDo",
+          "named": true
+        },
+        {
+          "type": "kDownto",
+          "named": true
+        },
+        {
+          "type": "kFor",
+          "named": true
+        },
+        {
+          "type": "kTo",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "foreach",
+    "named": true,
+    "fields": {
+      "body": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": ";",
+            "named": false
+          },
+          {
+            "type": "asm",
+            "named": false
+          },
+          {
+            "type": "assignment",
+            "named": false
+          },
+          {
+            "type": "block",
+            "named": true
+          },
+          {
+            "type": "case",
+            "named": true
+          },
+          {
+            "type": "for",
+            "named": true
+          },
+          {
+            "type": "foreach",
+            "named": true
+          },
+          {
+            "type": "goto",
+            "named": true
+          },
+          {
+            "type": "if",
+            "named": true
+          },
+          {
+            "type": "ifElse",
+            "named": false
+          },
+          {
+            "type": "raise",
+            "named": true
+          },
+          {
+            "type": "repeat",
+            "named": true
+          },
+          {
+            "type": "statement",
+            "named": true
+          },
+          {
+            "type": "try",
+            "named": true
+          },
+          {
+            "type": "varDef",
+            "named": true
+          },
+          {
+            "type": "while",
+            "named": true
+          },
+          {
+            "type": "with",
+            "named": true
+          }
+        ]
+      },
+      "iterable": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "exprBinary",
+            "named": true
+          },
+          {
+            "type": "exprBrackets",
+            "named": true
+          },
+          {
+            "type": "exprCall",
+            "named": false
+          },
+          {
+            "type": "exprDot",
+            "named": false
+          },
+          {
+            "type": "exprParens",
+            "named": false
+          },
+          {
+            "type": "exprSubscript",
+            "named": true
+          },
+          {
+            "type": "exprTpl",
+            "named": true
+          },
+          {
+            "type": "exprUnary",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": false
+          },
+          {
+            "type": "inherited",
+            "named": true
+          },
+          {
+            "type": "kFalse",
+            "named": true
+          },
+          {
+            "type": "kNil",
+            "named": false
+          },
+          {
+            "type": "kSpecialize",
+            "named": true
+          },
+          {
+            "type": "kTrue",
+            "named": true
+          },
+          {
+            "type": "lambda",
+            "named": true
+          },
+          {
+            "type": "literalNumber",
+            "named": false
+          },
+          {
+            "type": "literalString",
+            "named": true
+          }
+        ]
+      },
+      "iterator": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "exprBinary",
+            "named": false
+          },
+          {
+            "type": "exprBrackets",
+            "named": true
+          },
+          {
+            "type": "exprCall",
+            "named": true
+          },
+          {
+            "type": "exprDot",
+            "named": true
+          },
+          {
+            "type": "exprParens",
+            "named": true
+          },
+          {
+            "type": "exprSubscript",
+            "named": true
+          },
+          {
+            "type": "exprTpl",
+            "named": true
+          },
+          {
+            "type": "exprUnary",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "inherited",
+            "named": true
+          },
+          {
+            "type": "kFalse",
+            "named": true
+          },
+          {
+            "type": "kNil",
+            "named": true
+          },
+          {
+            "type": "kSpecialize",
+            "named": true
+          },
+          {
+            "type": "kTrue",
+            "named": true
+          },
+          {
+            "type": "lambda",
+            "named": true
+          },
+          {
+            "type": "literalNumber",
+            "named": true
+          },
+          {
+            "type": "literalString",
+            "named": true
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "kDo",
+          "named": false
+        },
+        {
+          "type": "kFor",
+          "named": false
+        },
+        {
+          "type": "kIn",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "genericArg",
+    "named": true,
+    "fields": {
+      "defaultValue": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "defaultValue",
+            "named": false
+          }
+        ]
+      },
+      "name": {
+        "multiple": true,
+        "required": true,
+        "types": [
+          {
+            "type": ",",
+            "named": false
+          },
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      },
+      "type": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": ":",
+            "named": false
+          },
+          {
+            "type": "typeref",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "genericArgs",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "genericArg",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "genericDot",
+    "named": true,
+    "fields": {
+      "lhs": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "genericDot",
+            "named": true
+          },
+          {
+            "type": "genericTpl",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      },
+      "operator": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "kDot",
+            "named": true
+          }
+        ]
+      },
+      "rhs": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "genericDot",
+            "named": true
+          },
+          {
+            "type": "genericTpl",
+            "named": false
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "operatorName",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "genericTpl",
+    "named": true,
+    "fields": {
+      "args": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "genericArgs",
+            "named": true
+          }
+        ]
+      },
+      "entity": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "genericDot",
+            "named": true
+          },
+          {
+            "type": "genericTpl",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "kGt",
+          "named": true
+        },
+        {
+          "type": "kLt",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "goto",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "kGoto",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "guid",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "exprBinary",
+          "named": true
+        },
+        {
+          "type": "exprBrackets",
+          "named": true
+        },
+        {
+          "type": "exprCall",
+          "named": true
+        },
+        {
+          "type": "exprDot",
+          "named": true
+        },
+        {
+          "type": "exprParens",
+          "named": true
+        },
+        {
+          "type": "exprSubscript",
+          "named": false
+        },
+        {
+          "type": "exprTpl",
+          "named": true
+        },
+        {
+          "type": "exprUnary",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "inherited",
+          "named": true
+        },
+        {
+          "type": "kFalse",
+          "named": true
+        },
+        {
+          "type": "kNil",
+          "named": true
+        },
+        {
+          "type": "kSpecialize",
+          "named": false
+        },
+        {
+          "type": "kTrue",
+          "named": true
+        },
+        {
+          "type": "lambda",
+          "named": true
+        },
+        {
+          "type": "literalNumber",
+          "named": true
+        },
+        {
+          "type": "literalString",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "if",
+    "named": true,
+    "fields": {
+      "condition": {
+        "multiple": true,
+        "required": true,
+        "types": [
+          {
+            "type": "exprBinary",
+            "named": false
+          },
+          {
+            "type": "exprBrackets",
+            "named": true
+          },
+          {
+            "type": "exprCall",
+            "named": true
+          },
+          {
+            "type": "exprDot",
+            "named": true
+          },
+          {
+            "type": "exprParens",
+            "named": true
+          },
+          {
+            "type": "exprSubscript",
+            "named": true
+          },
+          {
+            "type": "exprTpl",
+            "named": true
+          },
+          {
+            "type": "exprUnary",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "inherited",
+            "named": true
+          },
+          {
+            "type": "kFalse",
+            "named": true
+          },
+          {
+            "type": "kNil",
+            "named": false
+          },
+          {
+            "type": "kSpecialize",
+            "named": true
+          },
+          {
+            "type": "kTrue",
+            "named": true
+          },
+          {
+            "type": "lambda",
+            "named": true
+          },
+          {
+            "type": "literalNumber",
+            "named": true
+          },
+          {
+            "type": "literalString",
+            "named": false
+          }
+        ]
+      },
+      "then": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": ";",
+            "named": false
+          },
+          {
+            "type": "asm",
+            "named": true
+          },
+          {
+            "type": "assignment",
+            "named": true
+          },
+          {
+            "type": "block",
+            "named": true
+          },
+          {
+            "type": "case",
+            "named": true
+          },
+          {
+            "type": "for",
+            "named": true
+          },
+          {
+            "type": "foreach",
+            "named": true
+          },
+          {
+            "type": "goto",
+            "named": false
+          },
+          {
+            "type": "if",
+            "named": true
+          },
+          {
+            "type": "ifElse",
+            "named": false
+          },
+          {
+            "type": "raise",
+            "named": true
+          },
+          {
+            "type": "repeat",
+            "named": true
+          },
+          {
+            "type": "statement",
+            "named": true
+          },
+          {
+            "type": "try",
+            "named": true
+          },
+          {
+            "type": "varDef",
+            "named": false
+          },
+          {
+            "type": "while",
+            "named": true
+          },
+          {
+            "type": "with",
+            "named": true
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "kIf",
+          "named": true
+        },
+        {
+          "type": "kThen",
+          "named": false
+        }
+      ]
+    }
+  },
+  {
+    "type": "ifElse",
+    "named": true,
+    "fields": {
+      "condition": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "exprBinary",
+            "named": true
+          },
+          {
+            "type": "exprBrackets",
+            "named": false
+          },
+          {
+            "type": "exprCall",
+            "named": true
+          },
+          {
+            "type": "exprDot",
+            "named": true
+          },
+          {
+            "type": "exprParens",
+            "named": true
+          },
+          {
+            "type": "exprSubscript",
+            "named": true
+          },
+          {
+            "type": "exprTpl",
+            "named": true
+          },
+          {
+            "type": "exprUnary",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "inherited",
+            "named": true
+          },
+          {
+            "type": "kFalse",
+            "named": false
+          },
+          {
+            "type": "kNil",
+            "named": true
+          },
+          {
+            "type": "kSpecialize",
+            "named": true
+          },
+          {
+            "type": "kTrue",
+            "named": true
+          },
+          {
+            "type": "lambda",
+            "named": true
+          },
+          {
+            "type": "literalNumber",
+            "named": true
+          },
+          {
+            "type": "literalString",
+            "named": true
+          }
+        ]
+      },
+      "else": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": ";",
+            "named": true
+          },
+          {
+            "type": "asm",
+            "named": true
+          },
+          {
+            "type": "assignment",
+            "named": true
+          },
+          {
+            "type": "block",
+            "named": true
+          },
+          {
+            "type": "case",
+            "named": true
+          },
+          {
+            "type": "for",
+            "named": true
+          },
+          {
+            "type": "foreach",
+            "named": true
+          },
+          {
+            "type": "goto",
+            "named": true
+          },
+          {
+            "type": "if",
+            "named": true
+          },
+          {
+            "type": "ifElse",
+            "named": true
+          },
+          {
+            "type": "raise",
+            "named": true
+          },
+          {
+            "type": "repeat",
+            "named": true
+          },
+          {
+            "type": "statement",
+            "named": false
+          },
+          {
+            "type": "try",
+            "named": true
+          },
+          {
+            "type": "varDef",
+            "named": true
+          },
+          {
+            "type": "while",
+            "named": true
+          },
+          {
+            "type": "with",
+            "named": true
+          }
+        ]
+      },
+      "then": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "asm",
+            "named": false
+          },
+          {
+            "type": "assignment",
+            "named": true
+          },
+          {
+            "type": "block",
+            "named": true
+          },
+          {
+            "type": "case",
+            "named": true
+          },
+          {
+            "type": "for",
+            "named": true
+          },
+          {
+            "type": "foreach",
+            "named": false
+          },
+          {
+            "type": "goto",
+            "named": true
+          },
+          {
+            "type": "if",
+            "named": true
+          },
+          {
+            "type": "ifElse",
+            "named": true
+          },
+          {
+            "type": "raise",
+            "named": false
+          },
+          {
+            "type": "repeat",
+            "named": true
+          },
+          {
+            "type": "statement",
+            "named": true
+          },
+          {
+            "type": "try",
+            "named": true
+          },
+          {
+            "type": "varDef",
+            "named": true
+          },
+          {
+            "type": "while",
+            "named": true
+          },
+          {
+            "type": "with",
+            "named": true
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "kElse",
+          "named": true
+        },
+        {
+          "type": "kIf",
+          "named": true
+        },
+        {
+          "type": "kThen",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "implementation",
+    "named": false,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "blockTr",
+          "named": true
+        },
+        {
+          "type": "declConsts",
+          "named": false
+        },
+        {
+          "type": "declExports",
+          "named": true
+        },
+        {
+          "type": "declLabels",
+          "named": true
+        },
+        {
+          "type": "declProc",
+          "named": true
+        },
+        {
+          "type": "declTypes",
+          "named": true
+        },
+        {
+          "type": "declUses",
+          "named": true
+        },
+        {
+          "type": "declVars",
+          "named": true
+        },
+        {
+          "type": "defProc",
+          "named": true
+        },
+        {
+          "type": "kImplementation",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "inherited",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "kInherited",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "initialization",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "asm",
+          "named": false
+        },
+        {
+          "type": "assignment",
+          "named": true
+        },
+        {
+          "type": "block",
+          "named": true
+        },
+        {
+          "type": "case",
+          "named": true
+        },
+        {
+          "type": "for",
+          "named": true
+        },
+        {
+          "type": "foreach",
+          "named": true
+        },
+        {
+          "type": "goto",
+          "named": true
+        },
+        {
+          "type": "if",
+          "named": false
+        },
+        {
+          "type": "ifElse",
+          "named": true
+        },
+        {
+          "type": "kInitialization",
+          "named": false
+        },
+        {
+          "type": "label",
+          "named": false
+        },
+        {
+          "type": "raise",
+          "named": true
+        },
+        {
+          "type": "repeat",
+          "named": true
+        },
+        {
+          "type": "statement",
+          "named": true
+        },
+        {
+          "type": "try",
+          "named": true
+        },
+        {
+          "type": "varDef",
+          "named": true
+        },
+        {
+          "type": "while",
+          "named": true
+        },
+        {
+          "type": "with",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "interface",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "declConsts",
+          "named": true
+        },
+        {
+          "type": "declExports",
+          "named": true
+        },
+        {
+          "type": "declLabels",
+          "named": true
+        },
+        {
+          "type": "declProc",
+          "named": true
+        },
+        {
+          "type": "declProp",
+          "named": true
+        },
+        {
+          "type": "declTypes",
+          "named": true
+        },
+        {
+          "type": "declUses",
+          "named": false
+        },
+        {
+          "type": "declVars",
+          "named": true
+        },
+        {
+          "type": "kInterface",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "kDot",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "kEndDot",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "label",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": false,
+      "types": [
+        {
+          "type": "identifier",
+          "named": false
+        }
+      ]
+    }
+  },
+  {
+    "type": "lambda",
+    "named": true,
+    "fields": {
+      "args": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "declArgs",
+            "named": false
+          }
+        ]
+      },
+      "body": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "asm",
+            "named": true
+          },
+          {
+            "type": "block",
+            "named": true
+          }
+        ]
+      },
+      "local": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "blockTr",
+            "named": true
+          },
+          {
+            "type": "declConsts",
+            "named": true
+          },
+          {
+            "type": "declExports",
+            "named": true
+          },
+          {
+            "type": "declLabels",
+            "named": true
+          },
+          {
+            "type": "declProc",
+            "named": true
+          },
+          {
+            "type": "declTypes",
+            "named": true
+          },
+          {
+            "type": "declUses",
+            "named": true
+          },
+          {
+            "type": "declVars",
+            "named": true
+          },
+          {
+            "type": "defProc",
+            "named": true
+          }
+        ]
+      },
+      "type": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "typeref",
+            "named": false
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "kFunction",
+          "named": true
+        },
+        {
+          "type": "kProcedure",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "legacyFormat",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "exprBinary",
+          "named": true
+        },
+        {
+          "type": "exprBrackets",
+          "named": true
+        },
+        {
+          "type": "exprCall",
+          "named": true
+        },
+        {
+          "type": "exprDot",
+          "named": true
+        },
+        {
+          "type": "exprParens",
+          "named": true
+        },
+        {
+          "type": "exprSubscript",
+          "named": true
+        },
+        {
+          "type": "exprTpl",
+          "named": false
+        },
+        {
+          "type": "exprUnary",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": false
+        },
+        {
+          "type": "inherited",
+          "named": true
+        },
+        {
+          "type": "kFalse",
+          "named": true
+        },
+        {
+          "type": "kNil",
+          "named": false
+        },
+        {
+          "type": "kSpecialize",
+          "named": true
+        },
+        {
+          "type": "kTrue",
+          "named": false
+        },
+        {
+          "type": "lambda",
+          "named": false
+        },
+        {
+          "type": "literalNumber",
+          "named": true
+        },
+        {
+          "type": "literalString",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "library",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "block",
+          "named": true
+        },
+        {
+          "type": "blockTr",
+          "named": true
+        },
+        {
+          "type": "declConsts",
+          "named": true
+        },
+        {
+          "type": "declExports",
+          "named": true
+        },
+        {
+          "type": "declLabels",
+          "named": true
+        },
+        {
+          "type": "declProc",
+          "named": true
+        },
+        {
+          "type": "declTypes",
+          "named": true
+        },
+        {
+          "type": "declUses",
+          "named": true
+        },
+        {
+          "type": "declVars",
+          "named": true
+        },
+        {
+          "type": "defProc",
+          "named": false
+        },
+        {
+          "type": "kEnd",
+          "named": true
+        },
+        {
+          "type": "kEndDot",
+          "named": true
+        },
+        {
+          "type": "kLibrary",
+          "named": true
+        },
+        {
+          "type": "moduleName",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "literalChar",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "literalNumber",
+    "named": false,
+    "fields": {}
+  },
+  {
+    "type": "literalString",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": false,
+      "types": [
+        {
+          "type": "literalChar",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "moduleName",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "kDot",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "operatorName",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": false,
+      "types": [
+        {
+          "type": "kAdd",
+          "named": true
+        },
+        {
+          "type": "kAnd",
+          "named": true
+        },
+        {
+          "type": "kAssign",
+          "named": false
+        },
+        {
+          "type": "kDiv",
+          "named": true
+        },
+        {
+          "type": "kDot",
+          "named": true
+        },
+        {
+          "type": "kEq",
+          "named": true
+        },
+        {
+          "type": "kFdiv",
+          "named": true
+        },
+        {
+          "type": "kGt",
+          "named": true
+        },
+        {
+          "type": "kGte",
+          "named": true
+        },
+        {
+          "type": "kIn",
+          "named": false
+        },
+        {
+          "type": "kLt",
+          "named": true
+        },
+        {
+          "type": "kLte",
+          "named": true
+        },
+        {
+          "type": "kMod",
+          "named": true
+        },
+        {
+          "type": "kMul",
+          "named": true
+        },
+        {
+          "type": "kNeq",
+          "named": true
+        },
+        {
+          "type": "kNot",
+          "named": true
+        },
+        {
+          "type": "kOr",
+          "named": true
+        },
+        {
+          "type": "kShl",
+          "named": true
+        },
+        {
+          "type": "kShr",
+          "named": true
+        },
+        {
+          "type": "kSub",
+          "named": false
+        },
+        {
+          "type": "kXor",
+          "named": false
+        }
+      ]
+    }
+  },
+  {
+    "type": "procAttribute",
+    "named": true,
+    "fields": {
+      "dispid": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "exprBinary",
+            "named": true
+          },
+          {
+            "type": "exprBrackets",
+            "named": true
+          },
+          {
+            "type": "exprCall",
+            "named": false
+          },
+          {
+            "type": "exprDot",
+            "named": true
+          },
+          {
+            "type": "exprParens",
+            "named": true
+          },
+          {
+            "type": "exprSubscript",
+            "named": true
+          },
+          {
+            "type": "exprTpl",
+            "named": true
+          },
+          {
+            "type": "exprUnary",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": false
+          },
+          {
+            "type": "inherited",
+            "named": true
+          },
+          {
+            "type": "kDispId",
+            "named": true
+          },
+          {
+            "type": "kFalse",
+            "named": true
+          },
+          {
+            "type": "kNil",
+            "named": true
+          },
+          {
+            "type": "kSpecialize",
+            "named": true
+          },
+          {
+            "type": "kTrue",
+            "named": true
+          },
+          {
+            "type": "lambda",
+            "named": true
+          },
+          {
+            "type": "literalNumber",
+            "named": true
+          },
+          {
+            "type": "literalString",
+            "named": true
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "exprBinary",
+          "named": true
+        },
+        {
+          "type": "exprBrackets",
+          "named": true
+        },
+        {
+          "type": "exprCall",
+          "named": true
+        },
+        {
+          "type": "exprDot",
+          "named": true
+        },
+        {
+          "type": "exprParens",
+          "named": true
+        },
+        {
+          "type": "exprSubscript",
+          "named": true
+        },
+        {
+          "type": "exprTpl",
+          "named": true
+        },
+        {
+          "type": "exprUnary",
+          "named": false
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "inherited",
+          "named": true
+        },
+        {
+          "type": "kAbstract",
+          "named": true
+        },
+        {
+          "type": "kAlias",
+          "named": false
+        },
+        {
+          "type": "kAssembler",
+          "named": true
+        },
+        {
+          "type": "kCdecl",
+          "named": true
+        },
+        {
+          "type": "kCppdecl",
+          "named": true
+        },
+        {
+          "type": "kCvar",
+          "named": true
+        },
+        {
+          "type": "kDefault",
+          "named": true
+        },
+        {
+          "type": "kDeprecated",
+          "named": true
+        },
+        {
+          "type": "kDynamic",
+          "named": false
+        },
+        {
+          "type": "kExperimental",
+          "named": false
+        },
+        {
+          "type": "kExport",
+          "named": true
+        },
+        {
+          "type": "kFalse",
+          "named": true
+        },
+        {
+          "type": "kFar",
+          "named": true
+        },
+        {
+          "type": "kHardfloat",
+          "named": true
+        },
+        {
+          "type": "kInline",
+          "named": true
+        },
+        {
+          "type": "kInterrupt",
+          "named": true
+        },
+        {
+          "type": "kIocheck",
+          "named": false
+        },
+        {
+          "type": "kLocal",
+          "named": true
+        },
+        {
+          "type": "kMessage",
+          "named": false
+        },
+        {
+          "type": "kMs_abi_cdecl",
+          "named": true
+        },
+        {
+          "type": "kMs_abi_default",
+          "named": true
+        },
+        {
+          "type": "kMwpascal",
+          "named": true
+        },
+        {
+          "type": "kName",
+          "named": true
+        },
+        {
+          "type": "kNear",
+          "named": false
+        },
+        {
+          "type": "kNil",
+          "named": true
+        },
+        {
+          "type": "kNodefault",
+          "named": true
+        },
+        {
+          "type": "kNoreturn",
+          "named": false
+        },
+        {
+          "type": "kNostackframe",
+          "named": true
+        },
+        {
+          "type": "kOverload",
+          "named": true
+        },
+        {
+          "type": "kOverride",
+          "named": true
+        },
+        {
+          "type": "kPascal",
+          "named": true
+        },
+        {
+          "type": "kPlatform",
+          "named": true
+        },
+        {
+          "type": "kPublic",
+          "named": true
+        },
+        {
+          "type": "kRegister",
+          "named": true
+        },
+        {
+          "type": "kReintroduce",
+          "named": false
+        },
+        {
+          "type": "kSafecall",
+          "named": true
+        },
+        {
+          "type": "kSaveregisters",
+          "named": true
+        },
+        {
+          "type": "kSoftfloat",
+          "named": true
+        },
+        {
+          "type": "kSpecialize",
+          "named": true
+        },
+        {
+          "type": "kStatic",
+          "named": false
+        },
+        {
+          "type": "kStdcall",
+          "named": true
+        },
+        {
+          "type": "kSysv_abi_cdecl",
+          "named": false
+        },
+        {
+          "type": "kSysv_abi_default",
+          "named": true
+        },
+        {
+          "type": "kTrue",
+          "named": true
+        },
+        {
+          "type": "kUnimplemented",
+          "named": true
+        },
+        {
+          "type": "kVarargs",
+          "named": false
+        },
+        {
+          "type": "kVectorcall",
+          "named": true
+        },
+        {
+          "type": "kVirtual",
+          "named": false
+        },
+        {
+          "type": "kWinapi",
+          "named": false
+        },
+        {
+          "type": "lambda",
+          "named": true
+        },
+        {
+          "type": "literalNumber",
+          "named": false
+        },
+        {
+          "type": "literalString",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "procExternal",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "exprBinary",
+          "named": true
+        },
+        {
+          "type": "exprBrackets",
+          "named": false
+        },
+        {
+          "type": "exprCall",
+          "named": true
+        },
+        {
+          "type": "exprDot",
+          "named": true
+        },
+        {
+          "type": "exprParens",
+          "named": true
+        },
+        {
+          "type": "exprSubscript",
+          "named": true
+        },
+        {
+          "type": "exprTpl",
+          "named": true
+        },
+        {
+          "type": "exprUnary",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": false
+        },
+        {
+          "type": "inherited",
+          "named": true
+        },
+        {
+          "type": "kDelayed",
+          "named": false
+        },
+        {
+          "type": "kExternal",
+          "named": true
+        },
+        {
+          "type": "kFalse",
+          "named": true
+        },
+        {
+          "type": "kIndex",
+          "named": true
+        },
+        {
+          "type": "kName",
+          "named": true
+        },
+        {
+          "type": "kNil",
+          "named": true
+        },
+        {
+          "type": "kSpecialize",
+          "named": true
+        },
+        {
+          "type": "kTrue",
+          "named": false
+        },
+        {
+          "type": "lambda",
+          "named": true
+        },
+        {
+          "type": "literalNumber",
+          "named": true
+        },
+        {
+          "type": "literalString",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "program",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "block",
+          "named": false
+        },
+        {
+          "type": "blockTr",
+          "named": true
+        },
+        {
+          "type": "declConsts",
+          "named": true
+        },
+        {
+          "type": "declExports",
+          "named": false
+        },
+        {
+          "type": "declLabels",
+          "named": true
+        },
+        {
+          "type": "declProc",
+          "named": true
+        },
+        {
+          "type": "declTypes",
+          "named": false
+        },
+        {
+          "type": "declUses",
+          "named": true
+        },
+        {
+          "type": "declVars",
+          "named": true
+        },
+        {
+          "type": "defProc",
+          "named": true
+        },
+        {
+          "type": "kEndDot",
+          "named": false
+        },
+        {
+          "type": "kProgram",
+          "named": true
+        },
+        {
+          "type": "moduleName",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "raise",
+    "named": true,
+    "fields": {
+      "exception": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "exprBinary",
+            "named": true
+          },
+          {
+            "type": "exprBrackets",
+            "named": true
+          },
+          {
+            "type": "exprCall",
+            "named": true
+          },
+          {
+            "type": "exprDot",
+            "named": true
+          },
+          {
+            "type": "exprParens",
+            "named": true
+          },
+          {
+            "type": "exprSubscript",
+            "named": false
+          },
+          {
+            "type": "exprTpl",
+            "named": true
+          },
+          {
+            "type": "exprUnary",
+            "named": false
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "inherited",
+            "named": false
+          },
+          {
+            "type": "kFalse",
+            "named": true
+          },
+          {
+            "type": "kNil",
+            "named": true
+          },
+          {
+            "type": "kSpecialize",
+            "named": true
+          },
+          {
+            "type": "kTrue",
+            "named": true
+          },
+          {
+            "type": "lambda",
+            "named": true
+          },
+          {
+            "type": "literalNumber",
+            "named": true
+          },
+          {
+            "type": "literalString",
+            "named": true
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "kRaise",
+          "named": false
+        }
+      ]
+    }
+  },
+  {
+    "type": "range",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "exprBinary",
+          "named": true
+        },
+        {
+          "type": "exprBrackets",
+          "named": true
+        },
+        {
+          "type": "exprCall",
+          "named": true
+        },
+        {
+          "type": "exprDot",
+          "named": true
+        },
+        {
+          "type": "exprParens",
+          "named": true
+        },
+        {
+          "type": "exprSubscript",
+          "named": true
+        },
+        {
+          "type": "exprTpl",
+          "named": true
+        },
+        {
+          "type": "exprUnary",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": false
+        },
+        {
+          "type": "inherited",
+          "named": true
+        },
+        {
+          "type": "kFalse",
+          "named": false
+        },
+        {
+          "type": "kNil",
+          "named": true
+        },
+        {
+          "type": "kSpecialize",
+          "named": true
+        },
+        {
+          "type": "kTrue",
+          "named": true
+        },
+        {
+          "type": "lambda",
+          "named": false
+        },
+        {
+          "type": "literalNumber",
+          "named": true
+        },
+        {
+          "type": "literalString",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "recInitializer",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "recInitializerField",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "recInitializerField",
+    "named": true,
+    "fields": {
+      "name": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      },
+      "value": {
+        "multiple": true,
+        "required": true,
+        "types": [
+          {
+            "type": "arrInitializer",
+            "named": true
+          },
+          {
+            "type": "exprBinary",
+            "named": true
+          },
+          {
+            "type": "exprBrackets",
+            "named": true
+          },
+          {
+            "type": "exprCall",
+            "named": true
+          },
+          {
+            "type": "exprDot",
+            "named": true
+          },
+          {
+            "type": "exprParens",
+            "named": true
+          },
+          {
+            "type": "exprSubscript",
+            "named": true
+          },
+          {
+            "type": "exprTpl",
+            "named": true
+          },
+          {
+            "type": "exprUnary",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "inherited",
+            "named": true
+          },
+          {
+            "type": "kFalse",
+            "named": true
+          },
+          {
+            "type": "kNil",
+            "named": true
+          },
+          {
+            "type": "kSpecialize",
+            "named": true
+          },
+          {
+            "type": "kTrue",
+            "named": false
+          },
+          {
+            "type": "lambda",
+            "named": true
+          },
+          {
+            "type": "literalNumber",
+            "named": true
+          },
+          {
+            "type": "literalString",
+            "named": true
+          },
+          {
+            "type": "recInitializer",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "repeat",
+    "named": true,
+    "fields": {
+      "body": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "statements",
+            "named": true
+          }
+        ]
+      },
+      "condition": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "exprBinary",
+            "named": true
+          },
+          {
+            "type": "exprBrackets",
+            "named": true
+          },
+          {
+            "type": "exprCall",
+            "named": true
+          },
+          {
+            "type": "exprDot",
+            "named": true
+          },
+          {
+            "type": "exprParens",
+            "named": true
+          },
+          {
+            "type": "exprSubscript",
+            "named": true
+          },
+          {
+            "type": "exprTpl",
+            "named": true
+          },
+          {
+            "type": "exprUnary",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "inherited",
+            "named": false
+          },
+          {
+            "type": "kFalse",
+            "named": true
+          },
+          {
+            "type": "kNil",
+            "named": true
+          },
+          {
+            "type": "kSpecialize",
+            "named": true
+          },
+          {
+            "type": "kTrue",
+            "named": true
+          },
+          {
+            "type": "lambda",
+            "named": true
+          },
+          {
+            "type": "literalNumber",
+            "named": true
+          },
+          {
+            "type": "literalString",
+            "named": true
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "kRepeat",
+          "named": false
+        },
+        {
+          "type": "kUntil",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "root",
+    "named": true,
+    "root": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": false,
+      "types": [
+        {
+          "type": "blockTr",
+          "named": true
+        },
+        {
+          "type": "declConsts",
+          "named": true
+        },
+        {
+          "type": "declExports",
+          "named": false
+        },
+        {
+          "type": "declLabels",
+          "named": true
+        },
+        {
+          "type": "declProc",
+          "named": true
+        },
+        {
+          "type": "declTypes",
+          "named": false
+        },
+        {
+          "type": "declUses",
+          "named": true
+        },
+        {
+          "type": "declVars",
+          "named": true
+        },
+        {
+          "type": "defProc",
+          "named": true
+        },
+        {
+          "type": "library",
+          "named": true
+        },
+        {
+          "type": "program",
+          "named": false
+        },
+        {
+          "type": "unit",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "rttiAttributes",
+    "named": false,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "exprBinary",
+          "named": true
+        },
+        {
+          "type": "exprBrackets",
+          "named": true
+        },
+        {
+          "type": "exprCall",
+          "named": true
+        },
+        {
+          "type": "exprDot",
+          "named": true
+        },
+        {
+          "type": "exprParens",
+          "named": true
+        },
+        {
+          "type": "exprSubscript",
+          "named": true
+        },
+        {
+          "type": "exprTpl",
+          "named": true
+        },
+        {
+          "type": "exprUnary",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "inherited",
+          "named": false
+        },
+        {
+          "type": "kFalse",
+          "named": true
+        },
+        {
+          "type": "kNil",
+          "named": true
+        },
+        {
+          "type": "kSpecialize",
+          "named": true
+        },
+        {
+          "type": "kTrue",
+          "named": false
+        },
+        {
+          "type": "lambda",
+          "named": true
+        },
+        {
+          "type": "literalNumber",
+          "named": true
+        },
+        {
+          "type": "literalString",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "statement",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "exprBinary",
+          "named": true
+        },
+        {
+          "type": "exprBrackets",
+          "named": true
+        },
+        {
+          "type": "exprCall",
+          "named": true
+        },
+        {
+          "type": "exprDot",
+          "named": true
+        },
+        {
+          "type": "exprParens",
+          "named": true
+        },
+        {
+          "type": "exprSubscript",
+          "named": true
+        },
+        {
+          "type": "exprTpl",
+          "named": true
+        },
+        {
+          "type": "exprUnary",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "inherited",
+          "named": true
+        },
+        {
+          "type": "kFalse",
+          "named": true
+        },
+        {
+          "type": "kNil",
+          "named": true
+        },
+        {
+          "type": "kSpecialize",
+          "named": true
+        },
+        {
+          "type": "kTrue",
+          "named": true
+        },
+        {
+          "type": "lambda",
+          "named": true
+        },
+        {
+          "type": "literalNumber",
+          "named": true
+        },
+        {
+          "type": "literalString",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "statements",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "asm",
+          "named": true
+        },
+        {
+          "type": "assignment",
+          "named": true
+        },
+        {
+          "type": "block",
+          "named": true
+        },
+        {
+          "type": "case",
+          "named": true
+        },
+        {
+          "type": "for",
+          "named": false
+        },
+        {
+          "type": "foreach",
+          "named": true
+        },
+        {
+          "type": "goto",
+          "named": true
+        },
+        {
+          "type": "if",
+          "named": true
+        },
+        {
+          "type": "ifElse",
+          "named": true
+        },
+        {
+          "type": "label",
+          "named": true
+        },
+        {
+          "type": "raise",
+          "named": true
+        },
+        {
+          "type": "repeat",
+          "named": true
+        },
+        {
+          "type": "statement",
+          "named": true
+        },
+        {
+          "type": "try",
+          "named": true
+        },
+        {
+          "type": "varDef",
+          "named": true
+        },
+        {
+          "type": "while",
+          "named": false
+        },
+        {
+          "type": "with",
+          "named": false
+        }
+      ]
+    }
+  },
+  {
+    "type": "try",
+    "named": true,
+    "fields": {
+      "except": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "exceptionElse",
+            "named": true
+          },
+          {
+            "type": "exceptionHandler",
+            "named": false
+          },
+          {
+            "type": "kExcept",
+            "named": true
+          },
+          {
+            "type": "statements",
+            "named": true
+          }
+        ]
+      },
+      "finally": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "kFinally",
+            "named": true
+          },
+          {
+            "type": "statements",
+            "named": true
+          }
+        ]
+      },
+      "try": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "statements",
+            "named": true
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "kEnd",
+          "named": true
+        },
+        {
+          "type": "kTry",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "type",
+    "named": false,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "declArray",
+          "named": true
+        },
+        {
+          "type": "declEnum",
+          "named": true
+        },
+        {
+          "type": "declFile",
+          "named": true
+        },
+        {
+          "type": "declMetaClass",
+          "named": true
+        },
+        {
+          "type": "declProcRef",
+          "named": true
+        },
+        {
+          "type": "declSet",
+          "named": true
+        },
+        {
+          "type": "declString",
+          "named": true
+        },
+        {
+          "type": "pp",
+          "named": true
+        },
+        {
+          "type": "typeref",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "typeref",
+    "named": true,
+    "fields": {
+      "_dummy": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "kSpecialize",
+            "named": true
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "exprBinary",
+          "named": false
+        },
+        {
+          "type": "exprBrackets",
+          "named": true
+        },
+        {
+          "type": "exprCall",
+          "named": true
+        },
+        {
+          "type": "exprDot",
+          "named": true
+        },
+        {
+          "type": "exprParens",
+          "named": false
+        },
+        {
+          "type": "exprSubscript",
+          "named": false
+        },
+        {
+          "type": "exprTpl",
+          "named": true
+        },
+        {
+          "type": "exprUnary",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": false
+        },
+        {
+          "type": "inherited",
+          "named": true
+        },
+        {
+          "type": "kDeprecated",
+          "named": true
+        },
+        {
+          "type": "kFalse",
+          "named": true
+        },
+        {
+          "type": "kNil",
+          "named": false
+        },
+        {
+          "type": "kSpecialize",
+          "named": false
+        },
+        {
+          "type": "kTrue",
+          "named": false
+        },
+        {
+          "type": "lambda",
+          "named": false
+        },
+        {
+          "type": "literalNumber",
+          "named": true
+        },
+        {
+          "type": "literalString",
+          "named": false
+        },
+        {
+          "type": "typerefDot",
+          "named": true
+        },
+        {
+          "type": "typerefPtr",
+          "named": false
+        },
+        {
+          "type": "typerefTpl",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "typerefArgs",
+    "named": false,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "typerefDot",
+          "named": false
+        },
+        {
+          "type": "typerefPtr",
+          "named": false
+        },
+        {
+          "type": "typerefTpl",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "typerefDot",
+    "named": true,
+    "fields": {
+      "lhs": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "identifier",
+            "named": false
+          },
+          {
+            "type": "typerefDot",
+            "named": true
+          },
+          {
+            "type": "typerefPtr",
+            "named": true
+          },
+          {
+            "type": "typerefTpl",
+            "named": true
+          }
+        ]
+      },
+      "operator": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "kDot",
+            "named": true
+          }
+        ]
+      },
+      "rhs": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "typerefDot",
+            "named": true
+          },
+          {
+            "type": "typerefPtr",
+            "named": true
+          },
+          {
+            "type": "typerefTpl",
+            "named": false
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "typerefPtr",
+    "named": true,
+    "fields": {
+      "operand": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "typerefDot",
+            "named": true
+          },
+          {
+            "type": "typerefPtr",
+            "named": true
+          },
+          {
+            "type": "typerefTpl",
+            "named": true
+          }
+        ]
+      },
+      "operator": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "kHat",
+            "named": false
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "typerefTpl",
+    "named": true,
+    "fields": {
+      "args": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "typerefArgs",
+            "named": true
+          }
+        ]
+      },
+      "entity": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "typerefDot",
+            "named": true
+          },
+          {
+            "type": "typerefPtr",
+            "named": false
+          },
+          {
+            "type": "typerefTpl",
+            "named": true
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "kGt",
+          "named": true
+        },
+        {
+          "type": "kLt",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "unit",
+    "named": false,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "finalization",
+          "named": true
+        },
+        {
+          "type": "implementation",
+          "named": true
+        },
+        {
+          "type": "initialization",
+          "named": false
+        },
+        {
+          "type": "interface",
+          "named": true
+        },
+        {
+          "type": "kEnd",
+          "named": true
+        },
+        {
+          "type": "kEndDot",
+          "named": true
+        },
+        {
+          "type": "kUnit",
+          "named": true
+        },
+        {
+          "type": "moduleName",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "varAssignDef",
+    "named": true,
+    "fields": {
+      "type": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "typeref",
+            "named": true
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "kVar",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "varDef",
+    "named": true,
+    "fields": {
+      "type": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "typeref",
+            "named": true
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "kVar",
+          "named": false
+        }
+      ]
+    }
+  },
+  {
+    "type": "while",
+    "named": true,
+    "fields": {
+      "body": {
+        "multiple": true,
+        "required": true,
+        "types": [
+          {
+            "type": ";",
+            "named": false
+          },
+          {
+            "type": "asm",
+            "named": false
+          },
+          {
+            "type": "assignment",
+            "named": true
+          },
+          {
+            "type": "block",
+            "named": false
+          },
+          {
+            "type": "case",
+            "named": true
+          },
+          {
+            "type": "for",
+            "named": true
+          },
+          {
+            "type": "foreach",
+            "named": false
+          },
+          {
+            "type": "goto",
+            "named": false
+          },
+          {
+            "type": "if",
+            "named": true
+          },
+          {
+            "type": "ifElse",
+            "named": false
+          },
+          {
+            "type": "raise",
+            "named": false
+          },
+          {
+            "type": "repeat",
+            "named": false
+          },
+          {
+            "type": "statement",
+            "named": false
+          },
+          {
+            "type": "try",
+            "named": false
+          },
+          {
+            "type": "varDef",
+            "named": true
+          },
+          {
+            "type": "while",
+            "named": true
+          },
+          {
+            "type": "with",
+            "named": true
+          }
+        ]
+      },
+      "condition": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "exprBinary",
+            "named": true
+          },
+          {
+            "type": "exprBrackets",
+            "named": true
+          },
+          {
+            "type": "exprCall",
+            "named": false
+          },
+          {
+            "type": "exprDot",
+            "named": true
+          },
+          {
+            "type": "exprParens",
+            "named": true
+          },
+          {
+            "type": "exprSubscript",
+            "named": true
+          },
+          {
+            "type": "exprTpl",
+            "named": true
+          },
+          {
+            "type": "exprUnary",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "inherited",
+            "named": true
+          },
+          {
+            "type": "kFalse",
+            "named": true
+          },
+          {
+            "type": "kNil",
+            "named": true
+          },
+          {
+            "type": "kSpecialize",
+            "named": true
+          },
+          {
+            "type": "kTrue",
+            "named": true
+          },
+          {
+            "type": "lambda",
+            "named": true
+          },
+          {
+            "type": "literalNumber",
+            "named": true
+          },
+          {
+            "type": "literalString",
+            "named": true
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "kDo",
+          "named": true
+        },
+        {
+          "type": "kWhile",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "with",
+    "named": true,
+    "fields": {
+      "body": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": ";",
+            "named": false
+          },
+          {
+            "type": "asm",
+            "named": true
+          },
+          {
+            "type": "assignment",
+            "named": true
+          },
+          {
+            "type": "block",
+            "named": true
+          },
+          {
+            "type": "case",
+            "named": true
+          },
+          {
+            "type": "for",
+            "named": true
+          },
+          {
+            "type": "foreach",
+            "named": true
+          },
+          {
+            "type": "goto",
+            "named": false
+          },
+          {
+            "type": "if",
+            "named": true
+          },
+          {
+            "type": "ifElse",
+            "named": true
+          },
+          {
+            "type": "raise",
+            "named": false
+          },
+          {
+            "type": "repeat",
+            "named": true
+          },
+          {
+            "type": "statement",
+            "named": true
+          },
+          {
+            "type": "try",
+            "named": true
+          },
+          {
+            "type": "varDef",
+            "named": true
+          },
+          {
+            "type": "while",
+            "named": true
+          },
+          {
+            "type": "with",
+            "named": false
+          }
+        ]
+      },
+      "entity": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "exprBinary",
+            "named": true
+          },
+          {
+            "type": "exprBrackets",
+            "named": true
+          },
+          {
+            "type": "exprCall",
+            "named": true
+          },
+          {
+            "type": "exprDot",
+            "named": false
+          },
+          {
+            "type": "exprParens",
+            "named": true
+          },
+          {
+            "type": "exprSubscript",
+            "named": false
+          },
+          {
+            "type": "exprTpl",
+            "named": true
+          },
+          {
+            "type": "exprUnary",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "inherited",
+            "named": true
+          },
+          {
+            "type": "kFalse",
+            "named": true
+          },
+          {
+            "type": "kNil",
+            "named": true
+          },
+          {
+            "type": "kSpecialize",
+            "named": false
+          },
+          {
+            "type": "kTrue",
+            "named": true
+          },
+          {
+            "type": "lambda",
+            "named": true
+          },
+          {
+            "type": "literalNumber",
+            "named": true
+          },
+          {
+            "type": "literalString",
+            "named": true
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "kDo",
+          "named": true
+        },
+        {
+          "type": "kWith",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "#",
+    "named": false
+  },
+  {
+    "type": "(",
+    "named": true
+  },
+  {
+    "type": ")",
+    "named": false
+  },
+  {
+    "type": ",",
+    "named": false
+  },
+  {
+    "type": ".",
+    "named": true
+  },
+  {
+    "type": "..",
+    "named": false
+  },
+  {
+    "type": ":",
+    "named": false
+  },
+  {
+    "type": ";",
+    "named": true
+  },
+  {
+    "type": "[",
+    "named": false
+  },
+  {
+    "type": "]",
+    "named": false
+  },
+  {
+    "type": "comment",
+    "named": true,
+    "extra": true
+  },
+  {
+    "type": "identifier",
+    "named": true
+  },
+  {
+    "type": "kAbsolute",
+    "named": true
+  },
+  {
+    "type": "kAbstract",
+    "named": true
+  },
+  {
+    "type": "kAdd",
+    "named": true
+  },
+  {
+    "type": "kAlias",
+    "named": false
+  },
+  {
+    "type": "kAnd",
+    "named": true
+  },
+  {
+    "type": "kArray",
+    "named": true
+  },
+  {
+    "type": "kAs",
+    "named": true
+  },
+  {
+    "type": "kAsm",
+    "named": true
+  },
+  {
+    "type": "kAssembler",
+    "named": true
+  },
+  {
+    "type": "kAssign",
+    "named": true
+  },
+  {
+    "type": "kAssignAdd",
+    "named": false
+  },
+  {
+    "type": "kAssignDiv",
+    "named": true
+  },
+  {
+    "type": "kAssignMul",
+    "named": false
+  },
+  {
+    "type": "kAssignSub",
+    "named": true
+  },
+  {
+    "type": "kAt",
+    "named": false
+  },
+  {
+    "type": "kBegin",
+    "named": true
+  },
+  {
+    "type": "kCase",
+    "named": false
+  },
+  {
+    "type": "kCdecl",
+    "named": true
+  },
+  {
+    "type": "kClass",
+    "named": false
+  },
+  {
+    "type": "kConst",
+    "named": true
+  },
+  {
+    "type": "kConstref",
+    "named": true
+  },
+  {
+    "type": "kConstructor",
+    "named": true
+  },
+  {
+    "type": "kCppdecl",
+    "named": true
+  },
+  {
+    "type": "kCvar",
+    "named": true
+  },
+  {
+    "type": "kDefault",
+    "named": true
+  },
+  {
+    "type": "kDelayed",
+    "named": true
+  },
+  {
+    "type": "kDeprecated",
+    "named": true
+  },
+  {
+    "type": "kDestructor",
+    "named": false
+  },
+  {
+    "type": "kDispId",
+    "named": true
+  },
+  {
+    "type": "kDispInterface",
+    "named": true
+  },
+  {
+    "type": "kDiv",
+    "named": true
+  },
+  {
+    "type": "kDo",
+    "named": false
+  },
+  {
+    "type": "kDownto",
+    "named": true
+  },
+  {
+    "type": "kDynamic",
+    "named": false
+  },
+  {
+    "type": "kElse",
+    "named": false
+  },
+  {
+    "type": "kEnd",
+    "named": true
+  },
+  {
+    "type": "kEq",
+    "named": true
+  },
+  {
+    "type": "kExcept",
+    "named": true
+  },
+  {
+    "type": "kExperimental",
+    "named": false
+  },
+  {
+    "type": "kExport",
+    "named": true
+  },
+  {
+    "type": "kExports",
+    "named": true
+  },
+  {
+    "type": "kExternal",
+    "named": true
+  },
+  {
+    "type": "kFalse",
+    "named": false
+  },
+  {
+    "type": "kFar",
+    "named": true
+  },
+  {
+    "type": "kFdiv",
+    "named": true
+  },
+  {
+    "type": "kFile",
+    "named": false
+  },
+  {
+    "type": "kFinalization",
+    "named": false
+  },
+  {
+    "type": "kFinally",
+    "named": true
+  },
+  {
+    "type": "kFor",
+    "named": true
+  },
+  {
+    "type": "kForward",
+    "named": true
+  },
+  {
+    "type": "kFunction",
+    "named": true
+  },
+  {
+    "type": "kGeneric",
+    "named": false
+  },
+  {
+    "type": "kGoto",
+    "named": true
+  },
+  {
+    "type": "kGt",
+    "named": true
+  },
+  {
+    "type": "kGte",
+    "named": false
+  },
+  {
+    "type": "kHardfloat",
+    "named": false
+  },
+  {
+    "type": "kHat",
+    "named": true
+  },
+  {
+    "type": "kHelper",
+    "named": true
+  },
+  {
+    "type": "kIf",
+    "named": true
+  },
+  {
+    "type": "kImplementation",
+    "named": false
+  },
+  {
+    "type": "kImplements",
+    "named": false
+  },
+  {
+    "type": "kIn",
+    "named": false
+  },
+  {
+    "type": "kIndex",
+    "named": true
+  },
+  {
+    "type": "kInherited",
+    "named": true
+  },
+  {
+    "type": "kInitialization",
+    "named": true
+  },
+  {
+    "type": "kInline",
+    "named": true
+  },
+  {
+    "type": "kInterface",
+    "named": true
+  },
+  {
+    "type": "kInterrupt",
+    "named": true
+  },
+  {
+    "type": "kIocheck",
+    "named": true
+  },
+  {
+    "type": "kIs",
+    "named": true
+  },
+  {
+    "type": "kLabel",
+    "named": true
+  },
+  {
+    "type": "kLibrary",
+    "named": false
+  },
+  {
+    "type": "kLocal",
+    "named": true
+  },
+  {
+    "type": "kLt",
+    "named": true
+  },
+  {
+    "type": "kLte",
+    "named": true
+  },
+  {
+    "type": "kMessage",
+    "named": false
+  },
+  {
+    "type": "kMod",
+    "named": true
+  },
+  {
+    "type": "kMs_abi_cdecl",
+    "named": true
+  },
+  {
+    "type": "kMs_abi_default",
+    "named": true
+  },
+  {
+    "type": "kMul",
+    "named": true
+  },
+  {
+    "type": "kMwpascal",
+    "named": false
+  },
+  {
+    "type": "kName",
+    "named": true
+  },
+  {
+    "type": "kNear",
+    "named": true
+  },
+  {
+    "type": "kNeq",
+    "named": true
+  },
+  {
+    "type": "kNil",
+    "named": true
+  },
+  {
+    "type": "kNodefault",
+    "named": true
+  },
+  {
+    "type": "kNoreturn",
+    "named": true
+  },
+  {
+    "type": "kNostackframe",
+    "named": true
+  },
+  {
+    "type": "kNot",
+    "named": false
+  },
+  {
+    "type": "kObjccategory",
+    "named": true
+  },
+  {
+    "type": "kObjcclass",
+    "named": true
+  },
+  {
+    "type": "kObjcprotocol",
+    "named": true
+  },
+  {
+    "type": "kObject",
+    "named": false
+  },
+  {
+    "type": "kOf",
+    "named": true
+  },
+  {
+    "type": "kOn",
+    "named": true
+  },
+  {
+    "type": "kOperator",
+    "named": true
+  },
+  {
+    "type": "kOptional",
+    "named": true
+  },
+  {
+    "type": "kOr",
+    "named": true
+  },
+  {
+    "type": "kOut",
+    "named": true
+  },
+  {
+    "type": "kOverload",
+    "named": true
+  },
+  {
+    "type": "kOverride",
+    "named": true
+  },
+  {
+    "type": "kPacked",
+    "named": false
+  },
+  {
+    "type": "kPascal",
+    "named": false
+  },
+  {
+    "type": "kPlatform",
+    "named": true
+  },
+  {
+    "type": "kPrivate",
+    "named": false
+  },
+  {
+    "type": "kProcedure",
+    "named": true
+  },
+  {
+    "type": "kProgram",
+    "named": true
+  },
+  {
+    "type": "kProperty",
+    "named": true
+  },
+  {
+    "type": "kProtected",
+    "named": true
+  },
+  {
+    "type": "kPublic",
+    "named": true
+  },
+  {
+    "type": "kPublished",
+    "named": true
+  },
+  {
+    "type": "kRaise",
+    "named": true
+  },
+  {
+    "type": "kRead",
+    "named": true
+  },
+  {
+    "type": "kRecord",
+    "named": true
+  },
+  {
+    "type": "kReference",
+    "named": true
+  },
+  {
+    "type": "kRegister",
+    "named": true
+  },
+  {
+    "type": "kReintroduce",
+    "named": true
+  },
+  {
+    "type": "kRepeat",
+    "named": true
+  },
+  {
+    "type": "kRequired",
+    "named": false
+  },
+  {
+    "type": "kResourcestring",
+    "named": true
+  },
+  {
+    "type": "kSafecall",
+    "named": false
+  },
+  {
+    "type": "kSaveregisters",
+    "named": false
+  },
+  {
+    "type": "kSealed",
+    "named": true
+  },
+  {
+    "type": "kSet",
+    "named": true
+  },
+  {
+    "type": "kShl",
+    "named": true
+  },
+  {
+    "type": "kShr",
+    "named": true
+  },
+  {
+    "type": "kSoftfloat",
+    "named": true
+  },
+  {
+    "type": "kSpecialize",
+    "named": false
+  },
+  {
+    "type": "kStatic",
+    "named": true
+  },
+  {
+    "type": "kStdcall",
+    "named": true
+  },
+  {
+    "type": "kStored",
+    "named": false
+  },
+  {
+    "type": "kStrict",
+    "named": true
+  },
+  {
+    "type": "kString",
+    "named": true
+  },
+  {
+    "type": "kSub",
+    "named": true
+  },
+  {
+    "type": "kSysv_abi_cdecl",
+    "named": true
+  },
+  {
+    "type": "kSysv_abi_default",
+    "named": true
+  },
+  {
+    "type": "kThen",
+    "named": true
+  },
+  {
+    "type": "kThreadvar",
+    "named": true
+  },
+  {
+    "type": "kTo",
+    "named": true
+  },
+  {
+    "type": "kTrue",
+    "named": true
+  },
+  {
+    "type": "kTry",
+    "named": false
+  },
+  {
+    "type": "kType",
+    "named": true
+  },
+  {
+    "type": "kUnimplemented",
+    "named": true
+  },
+  {
+    "type": "kUnit",
+    "named": true
+  },
+  {
+    "type": "kUntil",
+    "named": true
+  },
+  {
+    "type": "kUses",
+    "named": false
+  },
+  {
+    "type": "kVar",
+    "named": true
+  },
+  {
+    "type": "kVarargs",
+    "named": true
+  },
+  {
+    "type": "kVectorcall",
+    "named": false
+  },
+  {
+    "type": "kVirtual",
+    "named": true
+  },
+  {
+    "type": "kWhile",
+    "named": true
+  },
+  {
+    "type": "kWinapi",
+    "named": true
+  },
+  {
+    "type": "kWith",
+    "named": true
+  },
+  {
+    "type": "kWrite",
+    "named": true
+  },
+  {
+    "type": "kXor",
+    "named": true
+  },
+  {
+    "type": "pp",
+    "named": true,
+    "extra": true
+  }
+]
